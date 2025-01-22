@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "./variables.scss";
+
+.navigation {
+  display: flex;
+  z-index: 20;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7em 0 0 0;
+
+  .logos{
+    margin: 0 2rem;
+    flex: none;
+    position: fixed;
+    z-index: 10;
+
+    .logo-image{
+      width: 86px;
+      height: auto;
+    }
+  }
+
+  ul.menu-container{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 100%;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    margin: 0 12% 0 12%;
+    padding: .3em .7em 0 0;
+    height: 4.3em;
+    text-align: center;
+    background: $tomorrow;
+    z-index: 10;
+    box-shadow: $box-shadow-article;
+
+    a, li.menu-item, .menu-item{
+      letter-spacing: 1px;
+      color: $pm;
+      padding: 0.3em .4em;
+      font-family: Raleway;
+      font-weight: 700;
+      font-size: 1em;
+      line-height: 1.1;
+      cursor: pointer;
+      transform: all .3s ease-in-out .3s;
+      // opacity: 1;
+
+      &:hover{
+        color: $gray-10;
+        // &::after { content: "▶"; margin-left: 5px; }
+        // text-decoration: 2px dashed blue overline;
+        // opacity: 0.8;
+      }
+      &.active {
+        color: $gray-10;
+        line-height: 1;
+        border-bottom: 8px solid $today;
+        // opacity: .8;
+        // text-underline-offset: 1.3em;
+        // text-decoration: 5px  dodgerblue dashed overline underline;
+        // text-decoration: 20px underline;
+
+      }
+      &:active {
+        color: $gray-10;
+      }
+    }
+  } //end of ul.menu-container
+
+  // /* Medium screens */
+  // @media all and (max-width: 800px) {
+  //   margin-bottom: 2em;
+
+  // }
+
+  /* Medium screens */
+  @media all and (max-width: 850px) {
+    .navigation {
+      min-height: auto;
+
+      .menu-container {
+      //     /* When on medium sized screens, we center it by evenly distributing empty space around items */
+        justify-content: space-around;
+      }
+    }
+  }
+
+  /* Small screens */
+  @media all and (max-width: 600px) {
+    .menu-container {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+}

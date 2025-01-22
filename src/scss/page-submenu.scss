@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import "./variables.scss";
+
+.page-submenu{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  margin: 0 12% 0 12%;
+  background-color: $today--80;
+  // background-image:  url("../assets/images/overlay.png");
+  transition: all 1.8s ease-in-out;
+  z-index: 30;
+  box-shadow: $box-shadow-article;
+
+  .bubble-link {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.2em ;
+    max-width: 180px;
+    text-align: center;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+
+    .bubble-frame{
+      position: relative;
+      width: 4rem;
+      height: 4rem;
+      overflow: hidden;
+      background-color: $am;
+      border-radius: $border-radius;
+      filter: grayscale(0.8);
+      margin: 0.5em;
+      text-align: center;
+      transition: all .4s ease-in-out;
+
+        img.bubble-image{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        &.active {
+          border: 1px solid $ubatuba;
+          box-shadow: $box-shadow-gray;
+          filter: grayscale(0.1);
+        }
+      }
+
+      .bubble-text-link{
+        .bubble-text {
+          font-family: 'Raleway', sans-serif;
+          font-weight: 600;
+          font-size: 0.9em;
+          color: $gray-60;
+
+          &.active {
+            color: $gray-60;
+            text-shadow: $text-shadow;
+            transition: all .3s ease-in-out;
+          }
+        }
+
+        &.active {
+          color: $gray-20;
+          text-shadow: $text-shadow;
+          transition: all .3s ease-in-out;
+        }
+      }
+
+    &.bubble-link:focus,
+    &.bubble-link:hover  {
+      transition: all .3s ease-in-out;
+      color: $gray-60;
+
+      .bubble-frame{
+        border: 1px solid $gray-80;
+        box-shadow: $box-shadow3;
+        filter: brightness(0.8);
+        transition: all .3s ease-in-out;
+      }
+      .bubble-text {
+        transition: all .3s ease-in-out;
+        color: $gray-60;
+      }
+    }
+  } //end bubble-link
+
+  @media only screen and (max-width: 1200px) {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    margin: 0 8% -2px 8%;
+   }
+  /* Medium screens */
+  @media only screen and (max-width: 950px) {
+    margin-left: 8%;
+    margin-right: 8%;
+
+  }
+
+  @media only screen and (max-width: 650px) {
+      margin-left: 2%;
+      margin-right: 2%;
+  }
+}
