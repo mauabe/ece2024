@@ -1,8 +1,8 @@
 {
   "name": "ece-app",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
-  "homepage": "https://ucla-ece-report.com/2023-2024/newfaculty",
+  "homepage": "https://ucla-ece-report.com/2023-2024",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
