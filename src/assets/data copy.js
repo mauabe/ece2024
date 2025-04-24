@@ -35,7 +35,7 @@ export const panels = [
     lastName: "Ahmadi",
     text: "Exploring Ultrawide Bandgap Materials and Devices",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span><span>hello elahe</span>",
-    image: "/2022-2023/img/flame-semiconductor.jpg",
+    image: "/2023-2024/img/flame-semiconductor.jpg",
     link: "highlights/elahehahmadi"
   },
   {
@@ -45,7 +45,7 @@ export const panels = [
     lastName: "Roberts",
     text: "Pioneering New Wireless Network Technologies",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "/2022-2023/img/wireless-network-nick-fancher.jpg",
+    image: "/2023-2024/img/wireless-network-nick-fancher.jpg",
     link: "highlights/ianroberts"
   },
   {

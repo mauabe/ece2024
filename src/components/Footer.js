@@ -17,7 +17,7 @@ const Footer = () => {
           />
       </Link>
         <div className="footer-dept">
-          Electrical and Computer Engineering Department - 2022-2023 Annual Report
+          Electrical and Computer Engineering Department - 2023-2024 Annual Report
         </div>
     </div>
   );

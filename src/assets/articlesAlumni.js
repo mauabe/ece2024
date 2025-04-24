@@ -130,11 +130,11 @@ export const articlesAlumni = [
   },
   {
     articleId: 'annualreport',
-    bubbleTextOne: '2022-2023',
+    bubbleTextOne: '2023-2024',
     bubbleTextTwo: 'Annual',
     bubbleTextThree: ' Report',
     articleHeadlineOne:' Electrical and Computer Engineering',
-    articleHeadlineTwo:'2022-2023 Annual Report',
+    articleHeadlineTwo:'2023-2024 Annual Report',
     articleHeadlineThree: ' ',
     articleCallout1: '',
     articleCallout2: '',
