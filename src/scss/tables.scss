@@ -6,8 +6,8 @@ table{
   width: 100%;
   min-width: 350px;
   vertical-align: center;
-  color:$am;
-  background-color: $yesterday--50;
+  color:$gray-4;
+  background-color: $dodge--50;
   background-image: url("../assets/images/y-so-c.png");
 }
 
@@ -17,9 +17,9 @@ th{
   font-size: 1.4em;
   text-indent: 0;
   padding: 1.5em;
-  border-bottom: 1px solid $midday;
-  background-color: $yesterday--50;
-  color:$am2;
+  border-bottom: 1px solid $gray-6;
+  background-color: $dodge--50;
+  color:$gray-4
 }
 
 tr td {
@@ -29,45 +29,45 @@ tr td {
   align-self: center;
   padding: 0.7em;
   padding-left: 1.5em;
-  border-bottom: 1px solid $midday;
-  color: $am;
-  background-color: $yesterday--30;
+  border-bottom: 1px solid $gray-6;
+  color: $gray-4;
+  background-color: $dodge--20;
 }
 // tr:nth-child(even) {
-//   background-color: $yesterday--20;
+//   background-color: $dodge--20;
 // }
 td.right{
   text-align: right;
   padding-right: 2em;
 }
 tbody tr:hover {
-  background-color: $yesterday--60;
+  background-color: $dodge--70;
 }
 
 tfoot tr{
   align-items: center;
-  background-color: $yesterday--20;
+  background-color: $dodge--20;
   height: 1em;
 }
 tr.t-total{
-  color:$am2;
-  background-color: darken($tomorrow--80, 10);
+  color:$gray-4;
+  background-color: darken($felt-red--80, 10);
   &:hover{
-    background-color: darken($tomorrow--60, 10) ;
+    background-color: darken($felt-red--60, 10) ;
   }
 }
 
 tr.sub-head{
-  background-color: $tomorrow--70;
+  background-color: $felt-red--70;
   &:hover{
-    background-color: darken($tomorrow--50, 10) ;
+    background-color: darken($felt-red--50, 10) ;
   }
 }
 tr.sub-total{
-  color:$am2;
-  background-color: darken($tomorrow--60, 8);
+  color:$gray-4;
+  background-color: darken($felt-red--60, 8);
   &:hover{
-    background-color: lighten($tomorrow--70, 5) ;
+    background-color: lighten($felt-red--70, 5) ;
   }
 }
 

@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   align-content: flex-start;
   margin: 0 12% 0 12%;
-  background-color: $today--80;
+  background-color: $felt-beige--80;
   // background-image:  url("../assets/images/overlay.png");
   transition: all 1.8s ease-in-out;
   z-index: 30;
@@ -29,7 +29,7 @@
       width: 4rem;
       height: 4rem;
       overflow: hidden;
-      background-color: $am;
+      background-color: $gray-4;
       border-radius: $border-radius;
       filter: grayscale(0.8);
       margin: 0.5em;
@@ -54,17 +54,17 @@
           font-family: 'Raleway', sans-serif;
           font-weight: 600;
           font-size: 0.9em;
-          color: $gray-60;
+          color: $gray-6;
 
           &.active {
-            color: $gray-60;
+            color: $gray-6;
             text-shadow: $text-shadow;
             transition: all .3s ease-in-out;
           }
         }
 
         &.active {
-          color: $gray-20;
+          color: $gray-4;
           text-shadow: $text-shadow;
           transition: all .3s ease-in-out;
         }
@@ -73,17 +73,17 @@
     &.bubble-link:focus,
     &.bubble-link:hover  {
       transition: all .3s ease-in-out;
-      color: $gray-60;
+      color: $gray-6;
 
       .bubble-frame{
-        border: 1px solid $gray-80;
+        border: 1px solid $gray-8;
         box-shadow: $box-shadow3;
         filter: brightness(0.8);
         transition: all .3s ease-in-out;
       }
       .bubble-text {
         transition: all .3s ease-in-out;
-        color: $gray-60;
+        color: $gray-6;
       }
     }
   } //end bubble-link

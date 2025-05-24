@@ -23,7 +23,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
-    color: $gray-40;
+    color: $gray-6;
     text-indent: 0;
     margin: 0.5em 0 0.5em 0;
     background: transparent;
@@ -70,7 +70,7 @@
     margin-bottom: 1.5em;
     text-indent: 0;
     text-align: left;
-    color: $gray-40;
+    color: $gray-6;
   }
 
   .page-img{
@@ -123,8 +123,16 @@
     text-indent: 0;
 
     img.fac{
-      width: 150px;
-      height: 190px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 200;
+      font-size: 0.8em;
+      position: relative;
+      background-color: $gray-4;
+      // min-width: 5rem;
+      // min-height: 6rem;
+
+      min-width: 150px;
+      min-height: 190px;
       object-fit: cover;
       object-position: 50% 50%;
       overflow: hidden;
@@ -132,7 +140,7 @@
       transition: all 0.3s;
       box-shadow: $box-shadow3;
       border-radius: $border-radius-half;
-      border: 1px solid  $gray-60;
+      border: 1px solid  $gray-6;
     }
     img.fac:hover{
       box-shadow: $box-shadow5;
@@ -167,7 +175,7 @@
         font-family: 'Oswald', sans-serif;
         font-weight: 200;
         font-size: 0.6em;
-        color: $gray-80;
+        color: $gray-8;
         box-shadow: $box-shadow-a;
         transition: all 0.3s ease-in-out;
         width: 250px;
@@ -230,7 +238,7 @@
   }
   .faculty-caption{
     margin-bottom: 2em;
-    color: $gray-40;
+    color: $gray-6;
   }
 
 }

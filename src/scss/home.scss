@@ -27,9 +27,9 @@
     margin: 1em;
     flex-direction: column;
     height: 55vh;
-    border: 1px solid $am;
+    border: 1px solid $gray-4;
     border-radius: 1em;
-    background: radial-gradient($today--60, $today--90);
+    background: radial-gradient($felt-beige--60, $felt-beige--80);
     box-shadow: .5em .5em 0.5em rgba(0, 0, 0, 0.3),
     .2em 0.2em 0.8em rgba(0, 0, 0, 0.3);
 
@@ -48,14 +48,14 @@
         transform: rotateX(180deg);
 
         background:
-        $today--60
+        $felt-beige--60
         linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4));
         transition: 0.7s ease-in-out  transform;
     }
 
     &:hover::before {
         transform: rotateX(0);
-        color: $today--40;
+        color: $felt-beige--40;
     }
 
     &.active {
@@ -65,7 +65,7 @@
       .panelContent {
         .panelTop {
           .panelLastName, .panelFirstName, .panelText {
-            color: $eve;
+            color: $gray-8;
           }
         }
         .panelImage{
@@ -79,7 +79,7 @@
 
     .panelContent {
       height: 50%;
-      color: $noon;
+      color: $gray-6;
       transition:
         color 0.4s ease-in-out,
         filter 0.9s ease-in-out;
@@ -112,7 +112,7 @@
           line-height: 1.3 ;
           padding: .5em 0 .5em 0;
           &.showText{
-            color: $noon;
+            color: $gray-6;
           }
         }
       }
@@ -123,8 +123,8 @@
         align-self: flex-start;
         margin: 1em .5em;
         padding: .5em;
-        color: $am;
-        background-color: $tomorrow--70;
+        color: $gray-4;
+        background-color: $felt-red--70;
         transition:
           color 0.3s ease-in,
           background-color 0.3s ease-in ;
@@ -137,8 +137,8 @@
           'opsz' 48
         }
         &:hover{
-          color: $gray-60;
-          background-color: $tomorrow;
+          color: $gray-6;
+          background-color:$felt-red;
         }
       }
 

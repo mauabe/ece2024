@@ -7,8 +7,8 @@
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 12% 3em 12%;
-  color: $noon;
-  background-color: $today--40;
+  color: $gray-6;
+  background-color: $felt-beige--60;
   background-image:  url("../assets/images/overlay.png");
   overflow: hidden;
   box-shadow: $box-shadow-article;
@@ -16,7 +16,6 @@
   .article-content{
     position: relative;
     width: 100%;
-    // box-shadow: $box-shadow-article;
 
     .container{
       display: block;
@@ -24,8 +23,6 @@
       top: 0;
       height: 140px;
       width: 100%;
-      // box-shadow: $box-shadow-article;
-      // visibility: hidden;
 
       img.article-main-photo {
         position: relative;
@@ -51,31 +48,15 @@
         top: 0;
         height: 140px;
         width: 100%;
-        background: linear-gradient(rgba(58, 76, 125, 0.4), rgba(58, 25, 105, 0.2));
+        background: linear-gradient($ubatuba--10, $dodge--20);
         transition: all .3s ease-in-out;
         opacity:0.5;
 
         &:hover {
-          background: linear-gradient(rgba(58, 102, 125, 0.9), rgba(58, 25, 105, 0.6));
+          background: linear-gradient($ubatuba--30, $dodge--30);
         }
       }
-    }  //end container
-    /*
-      NEWS
-      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
-      HIGHLIGHTS
-      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
-      STUDENTS TEACHING
-      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
-      Faculty
-      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
-      OVERVIEW
-      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
-      ALUMNI
-      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
-
-    */
-    /* When you mouse over the container, fade in the overlay title */
+    }  //end container  /* When you mouse over the container, fade in the overlay title */
 
     .article-header{
       display: flex;
@@ -90,7 +71,7 @@
         width: 9rem;
         height: 9rem;
         overflow: hidden;
-        background-color: $gray-60;
+        background-color: $gray-6;
         border: 1px solid $ubatuba;
         border-radius: $border-radius;
         box-shadow: $box-shadow3;
@@ -113,16 +94,16 @@
         position: relative;
         margin-bottom: 3rem;
         font-size: 1rem;
-        color: $tomorrow;
+        color: $ubatuba;
 
         .headline-lead {
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Oswald', sans-serif;
           font-weight: 300;
-          font-size: 1.3em;
-          color: $gray-80;
+          font-size: 1.2em;
+          color: $gray-8;
         }
         .headline{
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Bree Serif', serif;
           font-weight: 600;
           font-size: 2.8em;
         }
@@ -143,7 +124,7 @@
       text-indent: 2em;
       line-height: 1.8;
       margin-top: -40px;
-      color: $gray-80;
+      color: $gray-8;
 
       span.text-body{
         font-family: "Libre Caslon Text", serif;
@@ -154,16 +135,16 @@
         margin-bottom:1.5em;
       }
       a{
-        color: $tomorrow;
+        color: $felt-red;
       }
 
       p:first-of-type:first-letter {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Bree Serif', serif;
         font-weight: 900;
         float: left;
         font-size: 75px;
         line-height: .6;
-        color: $tomorrow;
+        color: $dodge;
         text-shadow: $text-shadow-drop2;
         margin-right: 20px;
         text-indent: 0;
@@ -214,7 +195,7 @@
     font-weight: 400;
     // font-size: 1em;
     padding: 0.5em 0 1.5em 0 ;
-    color: $noon;
+    color: $gray-6;
   }
   .caption-none{
     padding: 0em ;
@@ -222,13 +203,13 @@
   }
   .credits{
     padding: 0 2em 2em 2em;
-    color: $noon;
+    color: $gray-6;
     .image-credits,
     .author-credits{
       font-family: 'Oswald', sans-serif;
       font-weight: 200;
       font-size: .8em;
-      color: $noon;
+      color: $gray-6;
     }
   }
 
@@ -264,13 +245,13 @@
     font-weight: 200;
     font-style: italic;
     font-size: 0.8em;
-    color: $tomorrow;
+    color: $felt-red;
     transition: all .2s ease-in;
     margin: 0 .3em;
     cursor: pointer;
 
     &:hover{
-      color: $tomorrow--60;
+      color: $felt-red--60;
     }
   }
 }  //end or article
