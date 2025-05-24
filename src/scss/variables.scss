@@ -25,16 +25,28 @@ $text-shadow-drop2: rgba(104,118,109, 0.3) .09em .05em;
 
 $ubatuba: #68766D;
 $ubatuba--10: rgba(104,118,109, .1);
+$ubatuba--20: rgba(104,118,109, .2);
 $ubatuba--30: rgba(104,118,109, .3);
 $ubatuba--40: rgba(104,118,109, .4);
 $magenta: rgb(145, 30, 80);
+
 $dodge: rgb(42, 94, 140);
 $dodge--20: rgba(42, 94, 140, 0.2);
 $dodge--30: rgba(42, 94, 140, 0.3);
 $dodge--50: rgba(42, 94, 140, 0.5);
 $dodge--70: rgba(42, 94, 140, 0.7);
+
 $artY1: rgb(250, 210,0);
+$artY1--10: rgba(250, 210,0, 0.1);
+$artY1--20: rgba(250, 210,0, 0.2);
+$artY1--40: rgba(250, 210,0, 0.4);
+$artY1--60: rgba(250, 210,0, 0.6);
+
 $artY2: rgb(220, 200,120);
+$artY2--10: rgba(220, 200,120, 0.1);
+$artY2--20: rgba(220, 200,120, 0.2);
+$artY2--40: rgba(220, 200,120, 0.4);
+$artY2--60: rgba(220, 200,120, 0.6);
 
 $section1: #d1f2eb; // blue news
 $section2: #DAF7A6; // green hilts
@@ -42,9 +54,6 @@ $section3: #FFC300; // orange students
 $section4: #FF5733; // deeep orange faculty
 $section5: #CD5C5C; // overview indian red
 $section6: #C71585; // alumni mediumViolet
-
-
-
 
 //felt-beige
 $felt-beige-lt-lt-lt: rgb(255, 255, 240); // cream
@@ -56,10 +65,13 @@ $felt-beige-dk-dk: rgb(140, 140, 110);
 $felt-beige-dk-dk-dk: rgb(110, 110, 90);
 
 //felt-beige transparency
+$felt-beige--10: rgba(200, 200, 160, 0.1);
+$felt-beige--20: rgba(200, 200, 160, 0.2);
 $felt-beige--30: rgba(200, 200, 160, 0.3);
 $felt-beige--40: rgba(200, 200, 160, 0.4);
 $felt-beige--60: rgba(200, 200, 160, 0.6);
 $felt-beige--80: rgba(200, 200, 160, 0.8);
+$felt-beige--90: rgba(200, 200, 160, 0.9);
 
 // felt-red
 $felt-red-lt: rgb(190, 30, 5);

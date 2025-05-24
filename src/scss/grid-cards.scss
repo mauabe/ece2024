@@ -18,8 +18,7 @@
     margin-bottom: 2em;
     }
 
-  .card-deck
-  {
+  .card-deck  {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-template-rows: auto ;
@@ -37,8 +36,8 @@
       padding: 1.2em;
       max-width: 100%;
       color: $felt-beige-dk;
-      background-color: $felt-beige-lt-lt;
-      background-image: url("../assets/images/stylish-hex.png");
+      background-color: $artY1--20;
+      // background-image: url("../assets/images/stylish-hex.png");
 
       .frame{
         justify-self: center;
@@ -100,7 +99,7 @@
       min-height: 200px;
       border-radius: $border-radius-half;
       border: 1px solid $gray-6;
-      background: $felt-beige--30;
+      background-color: $felt-beige--60;
       align-items: center;
       padding: 1em;
 
@@ -133,7 +132,7 @@
 
     .card{
       display: grid;
-      background: $felt-red--30;
+      background-color: $felt-beige--60;
 
        .student-frame{
          margin: 2em auto ;
@@ -165,7 +164,7 @@
       transition: all 0.3s ease-in-out;
       border-radius: $border-radius;
       border: 1px solid $gray-6;
-      background: $felt-beige--30;
+      background-color: $felt-beige--60;
       align-items: start;
       padding: 1.2em;
       max-width: 100%;
@@ -193,7 +192,7 @@
     font-size: 2.2em;
     text-indent: 0;
     margin: 0.5em 0 0.5em 0;
-    background: transparent;
+    background-color: transparent;
   }
 
   .card-title{
