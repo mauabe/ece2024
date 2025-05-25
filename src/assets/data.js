@@ -1,10 +1,10 @@
 export const topMenu = [
-  ['news', 'NEWS', '$section1'],
-  ['highlights', 'HIGHLIGHTS', '$section2'],
-  ['students', 'STUDENTS & TEACHING', '$section3'],
-  ['faculty', 'ECE FACULTY', '$section4'],
-  ['overview', 'OVERVIEW', '$section5'],
-  ['alumni', 'ALUMNI & PARTNERSHIPS', '$section6'],
+  ['news', 'NEWS'],
+  ['highlights', 'FACULTY <br>HIGHLIGHTS'],
+  ['students', 'STUDENTS & <br>TEACHING'],
+  ['faculty', 'ECE <br> FACULTY'],
+  ['overview', 'DEPARTMENT <br> OVERVIEW'],
+  ['alumni', 'ALUMNI & <br> PARTNERSHIPS']
 ];
 
 export const subMenus = {
