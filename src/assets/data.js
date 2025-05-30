@@ -90,7 +90,4 @@ export const panels = [
   },
 ];
 
-    /* unsplash:
-    lines: xnqVGsbXgV4
-    lamps: fmCtPQhQksw
-    */
+
