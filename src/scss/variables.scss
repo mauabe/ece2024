@@ -36,24 +36,30 @@ $dodge--30: rgba(42, 94, 140, 0.3);
 $dodge--50: rgba(42, 94, 140, 0.5);
 $dodge--70: rgba(42, 94, 140, 0.7);
 
-$artY1: rgb(250, 210,0);
-$artY1--10: rgba(250, 210,0, 0.1);
-$artY1--20: rgba(250, 210,0, 0.2);
-$artY1--40: rgba(250, 210,0, 0.4);
-$artY1--60: rgba(250, 210,0, 0.6);
+$yellow1: rgb(250, 210, 0); // #FAD200  same as #section1
+$yellow1--10: rgba(250, 210,0, 0.1);
+$yellow1--20: rgba(250, 210,0, 0.2);
+$yellow1--40: rgba(250, 210,0, 0.4);
+$yellow1--60: rgba(250, 210,0, 0.6);
 
-$artY2: rgb(220, 200,120);
-$artY2--10: rgba(220, 200,120, 0.1);
-$artY2--20: rgba(220, 200,120, 0.2);
-$artY2--40: rgba(220, 200,120, 0.4);
-$artY2--60: rgba(220, 200,120, 0.6);
+$yellow2: rgb(220, 200,120);
+$yellow2--10: rgba(220, 200,120, 0.1);
+$yellow2--20: rgba(220, 200,120, 0.2);
+$yellow2--40: rgba(220, 200,120, 0.4);
+$yellow2--60: rgba(220, 200,120, 0.6);
 
-$section1: #d1f2eb; // blue news
-$section2: #DAF7A6; // green hilts
-$section3: #FFC300; // orange students
-$section4: #FF5733; // deeep orange faculty
-$section5: #CD5C5C; // overview indian red
-$section6: #C71585; // alumni mediumViolet
+$section1: #FAD200; // rgba(250, 210, 0, 1) yellow news
+$section2: #F85C4A; // rgba(248, 92, 74, 1) burnt orange highlights
+$section3: #7C0030; // rgba(124,0,48, 1) mauve wine student
+$section4A: #D1F2EB; // rgba(209, 242,235, 1) blue lt faculty 
+$section4B: #D2F896; // rgba(210,248,150, 1) green mayo
+$section4C: #F2E3FB; // rgba(242,227,251, 1) lilac
+$section4D: #0CEEFC; // rgba(12, 238, 252, 1) baby attitude
+$section4E: #31AADE; // rgba(49, 170, 222, 1) midsky blue
+$section4F: #2bb2a8; // rgba(43,178,168, 1) tealish
+$section5: #53821E; // rgba(83,130,30, 1) green Overview
+$section6: #1A4777; // rgba(26,71,119, 1) navy
+$section7: #C71585; // rgba(49, 170, 222, 1) medium magenta
 
 //felt-beige
 $felt-beige-lt-lt-lt: rgb(255, 255, 240); // cream
@@ -89,10 +95,12 @@ $felt-red--80: rgba(100, 20, 5, 0.8);
 $gray-1: #f5f5f5; // 245, 245, 245;
 $gray-2: #e0e0e0; //224, 224, 224 very light gray
 $gray-4: #dcdcdc; //200, 200, 200  gray
+$gray-5: rgb(200, 180, 180); 
 $gray-6: #6e6e6e; // 110, 100, 110 y
 $gray-7: #555555; // 85 85 85 dk gray
 $gray-8: #2b2b2b; // 43 43 43 very DK gray
 
+$gray--10: rgba(43,43,43,0.1); // transparent
 $gray--20: rgba(43,43,43,0.2); // transparent
 $gray--40: rgba(43,43,43,0.4); // transparent
 $gray--80: rgba(43,43,43,0.8); // transparent

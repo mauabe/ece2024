@@ -36,7 +36,7 @@
 
     a, li.menu-item, .menu-item{
       letter-spacing: 1px;
-      color: $felt-beige;
+      color: $felt-beige-lt;
       padding: 0.3em .8em;
       font-family: Raleway;
       font-weight: 700;
@@ -53,12 +53,12 @@
         // opacity: 0.8;
       }
       &.active {
-        color: $felt-beige-lt-lt;
+        color: $felt-beige-lt;
         line-height: 1;
-        border-bottom: 8px solid $artY1;
+        border-bottom: 5px solid $gray-5;
       }
       &:active {
-        color: $artY1;
+        color: $felt-beige-lt-lt-lt;
       }
     }
   } //end of ul.menu-container

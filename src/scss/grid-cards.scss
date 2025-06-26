@@ -18,7 +18,7 @@
     margin-bottom: 2em;
     }
 
-  .card-deck  {
+  .card-deck {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-template-rows: auto ;
@@ -35,8 +35,8 @@
       align-items: start;
       padding: 1.2em;
       max-width: 100%;
-      color: $felt-beige-dk;
-      background-color: $artY1--20;
+      color: $gray-7;
+      background-color: $dodge--30;
       // background-image: url("../assets/images/stylish-hex.png");
 
       .frame{
@@ -158,7 +158,7 @@
     grid-gap: 1.5em;
     text-indent: 0;
     max-width: 100%;
-
+ 
     .card{
       box-shadow: $box-shadow;
       transition: all 0.3s ease-in-out;
@@ -169,6 +169,8 @@
       padding: 1.2em;
       max-width: 100%;
       color: $gray-8;
+      color: $gray-7;
+      background-color: $dodge--30;
 
       height: fit-content;
       padding: 1.2em;
@@ -188,7 +190,7 @@
   h3.page-title{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    color: $gray-8;
+    color: $gray-6;
     font-size: 2.2em;
     text-indent: 0;
     margin: 0.5em 0 0.5em 0;
@@ -208,7 +210,7 @@
     line-height: 2.5;
     font-family: 'Bree Serif', serif;
     font-size: 1.6em;
-    color: $gray-6;
+    color: $gray-7;
     text-align: center;
     margin: 0.5em auto;
   }
@@ -327,7 +329,7 @@
   }
   .grid-cards{
     grid-template-columns: 1fr;
-    .card-deck{
+    .card-deck, .card-credits{
       grid-template-columns: 1fr;
     }
     .card-credits {
