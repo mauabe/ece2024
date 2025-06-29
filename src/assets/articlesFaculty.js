@@ -1,9 +1,9 @@
 export const articlesFaculty = [
   {
-    articleId: 'ces',
-    bubbleTextOne: 'Circuits ',
-    bubbleTextTwo: '& Embedded ',
-    bubbleTextThree: 'Systems',
+    articleId: 'ai',
+    bubbleTextOne: 'AI',
+    bubbleTextTwo: 'IoT',
+    bubbleTextThree: 'System Architecture',
     articleHeadlineOne: 'Research Area',
     articleHeadlineTwo: 'Circuits & Embedded Systems',
     articleHeadlineThree: '<span class="area-director">Area Director Chair: Lei He </span>',
