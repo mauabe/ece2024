@@ -2,7 +2,7 @@ export const topMenu = [
   ['news', 'NEWS'],
   ['highlights', 'FACULTY <br>HIGHLIGHTS'],
   ['students', 'STUDENTS & <br>TEACHING'],
-  ['faculty', 'ECE <br> FACULTY'],
+  ['faculty', 'FACULTY <br> RESEARCH'],
   ['overview', 'DEPARTMENT <br> OVERVIEW'],
   ['alumni', 'ALUMNI & <br> PARTNERSHIPS']
 ];

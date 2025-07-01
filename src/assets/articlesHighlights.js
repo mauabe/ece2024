@@ -133,7 +133,7 @@ export const articlesHighlights = [
     textCopy: '  <p style="text-indent:0"><span class="first-letter">E</span>very year, the UCLA Samueli School of Engineering selects and recognizes outstanding achievements by a number of its alumni, faculty members and students who have excelled in various fields. Jonathan Kao was awarded the Northrop Grumman Excellence in Teaching Award.</p><p>Jonathan Kao is an associate professor of electrical and computer engineering. Since joining the UCLA faculty in 2017, Kao has developed two new engineering courses — one on neural networks and deep learning, and the other on neural signal processing. They are among the most popular courses with the highest enrollment at UCLA Samueli. Kao’s classes have attracted students from more than 25 majors across campus and have received top marks in course reviews citing his passionate and engaging teaching style. Kao’s research interests lie at the intersection of basic neuroscience, neural engineering and modern artificial intelligence.</p><p>Kao has published studies at top venues on topics including brain-machine interfaces, deep learning, information theory, and the neuroscience of motor control, decision-making and anxiety. He is a member of the UCLA Neuroscience Interdepartmental Program and the UCLA Brain Research Institute. Among his many awards are a National Institutes of Health Director’s New Innovator Award, a National Science Foundation CAREER Award, and a Brain & Behavior Research Foundation National Alliance for Research on Schizophrenia and Depression Young Investigator Award. While studying for his bachelor’s, master’s and doctoral degrees in electrical engineering at Stanford University, Kao worked as a teaching assistant, graduate researcher and lecturer.</p><p><br><span>Honors & Awards</span><br><br>2024	Northrop Grumman Excellence in Teaching Award<br><br>2020	NIH Director\'s New Innovator Award<br><br>2020	NSF CAREER Award<br><br>2020	Brain & Behavior Research Foundation Young Investigator (Research Partners Program, P&S Fund Investigator)<br><br>2019	Hellman Fellow<br><br>2016	Sammy Kuo Award in Neuroscience, Finalist, Stanford University<br><br>2014	BRAIN Best Paper Award, IEEE EMBS, Chicago (Stavisky SD, Kao JC, Nuyujukian P, Ryu SI, Shenoy KV)<br><br>2006	Hewlett Packard Best Paper Award, ASME IMECE, Chicago (Kao JC, Warren J, Xu J, Attinger D)<br></p><p></p>'
   },
   {
-    articleId: 'madniinventors',
+    articleId: 'madnisuperhero',
     bubbleTextOne: 'Asad M.',
     bubbleTextTwo: 'Madni',
     bubbleTextThree: '',
@@ -156,8 +156,8 @@ export const articlesHighlights = [
     articleImageAltText6: '',
     articleImageMain: '/2023-2025/img/hall-Cayetano-Gros.jpg',
     articleImageAltTextMain: '',
-    articleImageProf: '2023-2025/img/Madni-2024.jpg',
-    articleImageAltTextProf: 'Distinguished Professor Asad Madni',
+    articleImageProf: '/2023-2025/Madni-tuxedo.jpg',
+    articleImageAltTextProf: 'Distinguished Professor Asad Madni wearing a tuxedo',
     articleImageCred: '',
     articleAuthor: '',
     articleCaption1: 'Prof. Madni\'s medal and at the induction ceremony with Taj Madni and the Asad Madni “Super Hero” cut out in the background.',
