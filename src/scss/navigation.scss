@@ -40,7 +40,7 @@
       padding: 0.3em .8em;
       font-family: Raleway;
       font-weight: 700;
-      font-size: 1em;
+      font-size: .95em;
       line-height: 1.1;
       cursor: pointer;
       transform: all .3s ease-in-out .3s;
@@ -55,7 +55,7 @@
       &.active {
         color: $felt-beige-lt;
         line-height: 1;
-        border-bottom: 5px solid $gray-5;
+        border-bottom: 5px solid $gray-6;
       }
       &:active {
         color: $felt-beige-lt-lt-lt;

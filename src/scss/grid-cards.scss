@@ -133,6 +133,7 @@
     .card{
       display: grid;
       background-color: $felt-beige--60;
+      padding: 1em auto ;
 
        .student-frame{
          margin: 2em auto ;
@@ -168,9 +169,8 @@
       align-items: start;
       padding: 1.2em;
       max-width: 100%;
-      color: $gray-8;
       color: $gray-7;
-      background-color: $dodge--30;
+      // background-color: $dodge--30;
 
       height: fit-content;
       padding: 1.2em;
@@ -224,7 +224,7 @@
   }
   .p-area{
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     color: $gray-8;
     text-align: center;
     margin-bottom: 0.2em;
@@ -240,7 +240,7 @@
   }
   .card-advisor{
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     color: $gray-8;
     text-align: center;
     margin-bottom: 0.2em;
@@ -249,7 +249,7 @@
   .courses{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 1em 0 0 2em;
     text-indent: 0;
     text-align: justify;
@@ -258,7 +258,7 @@
   .courses-title{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 0 0 2em 2em;
     text-indent: 0;
     text-align: justify;
@@ -269,7 +269,7 @@
   .card-bottom > p{
     font-family: 'Oswald', sans-serif;
     font-weight: 200  ;
-    font-size: .9em;
+    font-size: 1.1em;
     color: $gray-8;
     text-align: left;
     text-decoration: none;

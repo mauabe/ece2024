@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   align-content: flex-start;
   margin: 0 12% 0 12%;
-  background-color: $yellow2--20;
+  background-color: $yellow2--10;
   // background-image:  url("../assets/images/overlay.png");
   transition: all 1.8s ease-in-out;
   z-index: 30;
@@ -31,7 +31,7 @@
       height: 4rem;
       overflow: hidden;
       border: 1px solid $gray-7;
-      background-color: $gray-4;
+      background-color: $gray-2;
       border-radius: $border-radius;
       filter: grayscale(0.8);
       margin: 0.5em;
@@ -55,19 +55,19 @@
         .bubble-text {
           font-family: 'Raleway', sans-serif;
           font-weight: 600;
-          font-size: 1em;
+          font-size: .85em;
           color: $gray-6;
 
           &.active {
-            color: $gray-6;
-            text-shadow: $text-shadow;
+            color: $gray-8;
+            // text-shadow: $text-shadow;
             transition: all .3s ease-in-out;
           }
         }
 
         &.active {
-          color: $gray-4;
-          text-shadow: $text-shadow;
+          color: $gray-7;
+          // text-shadow: $text-shadow;
           transition: all .3s ease-in-out;
         }
       }
@@ -75,7 +75,7 @@
     &.bubble-link:focus,
     &.bubble-link:hover  {
       transition: all .3s ease-in-out;
-      color: $gray-6;
+      color: $gray-8;
 
       .bubble-frame{
         border: 1px solid $gray-8;
@@ -85,7 +85,7 @@
       }
       .bubble-text {
         transition: all .3s ease-in-out;
-        color: $gray-6;
+        color: $gray-8;
       }
     }
   } //end bubble-link
