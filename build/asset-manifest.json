@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2023-2025/static/css/main.99773846.css",
-    "main.js": "/2023-2025/static/js/main.5fcbedf5.js",
+    "main.css": "/2023-2025/static/css/main.54c10273.css",
+    "main.js": "/2023-2025/static/js/main.a4a1457b.js",
     "static/media/microprocessor-zhvgeirSXgU.jpg": "/2023-2025/static/media/microprocessor-zhvgeirSXgU.865a27a490e96a9f522d.jpg",
     "static/media/hex-computer-grid-steve-johnson.jpg": "/2023-2025/static/media/hex-computer-grid-steve-johnson.2409d657f77e68113404.jpg",
     "static/media/wireless-network-nick-fancher.jpg": "/2023-2025/static/media/wireless-network-nick-fancher.467d5bbeb20ed3af3238.jpg",
@@ -14,11 +14,11 @@
     "static/media/ECE.svg": "/2023-2025/static/media/ECE.e7bc92928069e853dc67e1a3dcc60d0c.svg",
     "static/media/ECE_white.svg": "/2023-2025/static/media/ECE_white.c0d65bdaabb1a0d4274c515cf57c1c8a.svg",
     "index.html": "/2023-2025/index.html",
-    "main.99773846.css.map": "/2023-2025/static/css/main.99773846.css.map",
-    "main.5fcbedf5.js.map": "/2023-2025/static/js/main.5fcbedf5.js.map"
+    "main.54c10273.css.map": "/2023-2025/static/css/main.54c10273.css.map",
+    "main.a4a1457b.js.map": "/2023-2025/static/js/main.a4a1457b.js.map"
   },
   "entrypoints": [
-    "static/css/main.99773846.css",
-    "static/js/main.5fcbedf5.js"
+    "static/css/main.54c10273.css",
+    "static/js/main.a4a1457b.js"
   ]
 }
