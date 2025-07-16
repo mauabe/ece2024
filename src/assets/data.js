@@ -29,65 +29,45 @@ export const logos = {
 
 export const panels = [
   {
-    id: "elahehahmadi",
+    id: "lizizhikevich",
     title: "NEW FACULTY",
-    firstName: "Elaheh",
-    lastName: "Ahmadi",
-    text: "Exploring Ultrawide Bandgap Materials and Devices",
-    linkText: "<span class='material-symbols-outlined'>arrow_forward</span><span>hello elahe</span>",
-    image: "/2023-2025/img/flame-semiconductor.jpg",
-    link: "highlights/elahehahmadi"
+    firstName: "Liz ",
+    lastName: "Izhikevich",
+    text: "Global Visibility into the Internet's Performance and Security",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span><span>Lizz</span>",
+    image: "/2023-2025/img/Liz-Izhikevich-portrait.jpg",
+    link: "news/izhikevich"
   },
   {
-    id: "ianroberts",
+    id: "dilou",
     title: "NEW FACULTY",
-    firstName: "Ian ",
-    lastName: "Roberts",
-    text: "Pioneering New Wireless Network Technologies",
+    firstName: "Di ",
+    lastName: "Lou",
+    text: "Transformative Potential of Computers Exploiting Quantum Effects",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "/2023-2025/img/wireless-network-nick-fancher.jpg",
-    link: "highlights/ianroberts"
+    image: "/2023-2025/img/DiLuo_portrait.jpg",
+    link: "news/izhikevich"
   },
   {
-    id: "xiaofancui",
+    id: "leozhou",
     title: "NEW FACULTY",
-    firstName: "Xiaofan",
-    lastName: "Cui",
-    text: "Explores Energy and Power Distribution in Electronic Devices",
+    firstName: "Leo ",
+    lastName: "Zhou",
+    text: "The Intersection of Quantum Computation and Physics",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "https://source.unsplash.com/gKmXPcVToY0/1500x1500",
-    link: "highlights/xiaofancui"
+    image: "/2023-2025/img/leo-zhou-portrait.jpg",
+    link: "news/leozhou"
   },
   {
-    id: "frankchangmedal",
-    title: "Professor",
-    firstName: "M.C.Frank",
-    lastName: "Chang",
-    text: "Awarded James Clerk Maxwell Medal",
-    linkText: "../assets/images/joy.jpg",
-    image: "https://source.unsplash.com/Kj2SaNHG-hg/1500x1500",
-    link: "highlights/kadambiaward"
-  },
-  {
-    id: "kangwanginventors",
-    title: "Professor",
-    firstName: "Kang",
-    lastName: "Wang",
-    text: "Elected to National Academy of Inventors",
+    id: "deanpark",
+    title: "Dean",
+    firstName: 'A.-H. “Alissa” ',
+    lastName: "Park",
+    text: "The Leadership on the Path to Excellence",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
-    link: "highlights/kangwanginventors"
-  },
-  {
-    id: "kadambiaward",
-    title: "Asst. Professor",
-    firstName: "Achuta",
-    lastName: "Kadambi",
-    text: "Recognized for Promoting Inclusivity in Engineering",
-    linkText: "../assets/images/joy.jpg",
-    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
-    link: "highlights/kadambiaward"
-  },
+    image: "/2023-2025/img/Alissa-Park.jpg",
+    link: "news/deanpark"
+  }
 ];
 
 

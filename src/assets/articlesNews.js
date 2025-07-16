@@ -133,7 +133,7 @@ export const articlesNews = [
   },
 
   {
-    articleId: 'williams',
+    articleId: 'deanpark',
     bubbleTextOne: 'From ',
     bubbleTextTwo: 'the Dean',
     bubbleTextThree: '',
