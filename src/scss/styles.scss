@@ -43,7 +43,7 @@ h6 {
   font-size: 1rem;
   font-weight: 200;
   text-decoration: none;
-  color: $today;
+  color: $felt-beige;
   background-color: transparent;
   box-sizing: border-box;
 }
@@ -79,10 +79,10 @@ textarea {
   margin: 0;
 }
 a{
-  color: $tomorrow;
+  color:$felt-red;
   text-decoration: none;
   &:hover, &:active{
-    color: $today;
+    color: $felt-beige;
   }
 }
 *, *:before, *:after {
@@ -135,8 +135,8 @@ img.none {
 .App {
   align-items: center;
   justify-content: center;
-  background-color: $am;
-  color: $pm;
+  background-color:$felt-beige;
+  color: $felt-red;
   background-image: url("../assets/images/webb.png");
   background-position: top left, center center;
   background-attachment: fixed, fixed;

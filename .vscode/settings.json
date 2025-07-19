@@ -1,0 +1,15 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.colorDecorators": false,
+  "editor.colorDecoratorsActivatedOn": "click",
+  "editor.fontSize": 18,
+  "editor.fontWeight": "normal",
+  "workbench.externalBrowser": "chrome",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.editor.autoLockGroups": {
+    "workbench.editor.chatSession": false
+  },
+  "workbench.preferredHighContrastLightColorTheme": "Visual Studio Light",
+  "workbench.secondarySideBar.showLabels": false,
+  "editor.fontFamily": "Monaco, osaka, Ubuntu Mono, Source Code Pro, Menlo, monospace"
+}

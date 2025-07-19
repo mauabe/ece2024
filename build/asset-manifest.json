@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/2022-2023/newfaculty/static/css/main.bc516bad.chunk.css",
-    "main.js": "/2022-2023/newfaculty/static/js/main.94071830.chunk.js",
-    "main.js.map": "/2022-2023/newfaculty/static/js/main.94071830.chunk.js.map",
-    "runtime-main.js": "/2022-2023/newfaculty/static/js/runtime-main.5f5fedd4.js",
-    "runtime-main.js.map": "/2022-2023/newfaculty/static/js/runtime-main.5f5fedd4.js.map",
-    "static/js/2.d01bc39c.chunk.js": "/2022-2023/newfaculty/static/js/2.d01bc39c.chunk.js",
-    "static/js/2.d01bc39c.chunk.js.map": "/2022-2023/newfaculty/static/js/2.d01bc39c.chunk.js.map",
-    "index.html": "/2022-2023/newfaculty/index.html",
-    "static/css/main.bc516bad.chunk.css.map": "/2022-2023/newfaculty/static/css/main.bc516bad.chunk.css.map",
-    "static/js/2.d01bc39c.chunk.js.LICENSE.txt": "/2022-2023/newfaculty/static/js/2.d01bc39c.chunk.js.LICENSE.txt",
-    "static/media/ECE.72e7138f.svg": "/2022-2023/newfaculty/static/media/ECE.72e7138f.svg",
-    "static/media/ECE_white.c0d65bda.svg": "/2022-2023/newfaculty/static/media/ECE_white.c0d65bda.svg",
-    "static/media/styles.scss": "/2022-2023/newfaculty/static/media/y-so-c.9db00cb0.png",
-    "static/media/ucla-samueli-logo-white.8c380807.svg": "/2022-2023/newfaculty/static/media/ucla-samueli-logo-white.8c380807.svg"
+    "main.css": "/2023-2025/static/css/main.adfd2bea.css",
+    "main.js": "/2023-2025/static/js/main.2ab000db.js",
+    "static/media/Liz-Izhikevich.png": "/2023-2025/static/media/Liz-Izhikevich.a361aa20a5e6df821603.png",
+    "static/media/Futuristic.jpg": "/2023-2025/static/media/Futuristic.bcb289652bd8ddf3af4d.jpg",
+    "static/media/leo-zhou.png": "/2023-2025/static/media/leo-zhou.7e9dc308d29d06744eb2.png",
+    "static/media/di-luo.png": "/2023-2025/static/media/di-luo.54c0695609b54becf191.png",
+    "static/media/Chair_Williams_Yang.png": "/2023-2025/static/media/Chair_Williams_Yang.a9671118421616b07e63.png",
+    "static/media/webb.png": "/2023-2025/static/media/webb.c9a973c1c0b7166c0a56.png",
+    "static/media/white_rhombus.png": "/2023-2025/static/media/white_rhombus.681aaffa8d1a96c8663c.png",
+    "static/media/ucla-samueli-logo-white.svg": "/2023-2025/static/media/ucla-samueli-logo-white.8c380807eaeb20d7155efdfc9c328bd0.svg",
+    "static/media/ECE.svg": "/2023-2025/static/media/ECE.e7bc92928069e853dc67e1a3dcc60d0c.svg",
+    "static/media/ECE_white.svg": "/2023-2025/static/media/ECE_white.c0d65bdaabb1a0d4274c515cf57c1c8a.svg",
+    "index.html": "/2023-2025/index.html",
+    "main.adfd2bea.css.map": "/2023-2025/static/css/main.adfd2bea.css.map",
+    "main.2ab000db.js.map": "/2023-2025/static/js/main.2ab000db.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f5fedd4.js",
-    "static/js/2.d01bc39c.chunk.js",
-    "static/css/main.bc516bad.chunk.css",
-    "static/js/main.94071830.chunk.js"
+    "static/css/main.adfd2bea.css",
+    "static/js/main.2ab000db.js"
   ]
 }

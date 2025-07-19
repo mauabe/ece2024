@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {Router} from 'react-router-dom';
 import {createBrowserHistory} from "history";
 
-const history = createBrowserHistory({basename:"/2022-2023/newfaculty"});
+const history = createBrowserHistory({basename:"/2023-2025/"});
 // const router = () => {<Router/>};
 
 ReactDOM.render(
@@ -16,7 +16,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// <Router basename="/2022-2023" history={history} >
+// <Router basename="/2023-2025" history={history} >
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA

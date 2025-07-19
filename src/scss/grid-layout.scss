@@ -23,10 +23,10 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
-    color: $gray-40;
+    color: $gray-6;
     text-indent: 0;
     margin: 0.5em 0 0.5em 0;
-    background: transparent;
+    background-color: transparent;
   }
 
   h4.page-subtitle{
@@ -70,7 +70,7 @@
     margin-bottom: 1.5em;
     text-indent: 0;
     text-align: left;
-    color: $gray-40;
+    color: $gray-6;
   }
 
   .page-img{
@@ -123,7 +123,17 @@
     text-indent: 0;
 
     img.fac{
+      font-family: 'Oswald', sans-serif;
+      font-weight: 200;
+      font-size: 0.8em;
+      position: relative;
+      background-color: $gray-4;
+      // min-height: 6rem;
+      
       width: 150px;
+      max-width: 155px;
+      min-width: 150px;
+      min-height: 188px;
       height: 190px;
       object-fit: cover;
       object-position: 50% 50%;
@@ -132,7 +142,7 @@
       transition: all 0.3s;
       box-shadow: $box-shadow3;
       border-radius: $border-radius-half;
-      border: 1px solid  $gray-60;
+      border: 1px solid  $gray-6;
     }
     img.fac:hover{
       box-shadow: $box-shadow5;
@@ -167,7 +177,7 @@
         font-family: 'Oswald', sans-serif;
         font-weight: 200;
         font-size: 0.6em;
-        color: $gray-80;
+        color: $gray-8;
         box-shadow: $box-shadow-a;
         transition: all 0.3s ease-in-out;
         width: 250px;
@@ -200,7 +210,7 @@
       .research-name{
         font-family: 'Oswald', sans-serif;
         font-weight: 400;
-        font-size: 0.9em;
+        font-size: 1em;
         margin-bottom: 0.3em;
         text-indent: 0;
         text-align: left;
@@ -208,7 +218,7 @@
       .research-prof{
         font-family: 'Oswald', sans-serif;
         font-weight: 200;
-        font-size: 0.9em;
+        font-size: 1em;
         // margin-bottom: 0.1em;
         text-indent: 0;
         text-align: left;
@@ -230,7 +240,7 @@
   }
   .faculty-caption{
     margin-bottom: 2em;
-    color: $gray-40;
+    color: $gray-6;
   }
 
 }

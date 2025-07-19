@@ -1,11 +1,12 @@
 $val: 1;
 $values: 0 0 100px;
-$border-radius: 2px;
-$border-radius-half: 1px;
+$border-radius: 4px;
+$border-radius-half: 2px;
 
-$box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 2px 2px 3px rgba(0, 0, 0, 0.25);
-$box-shadow3: 3px 3px 3px rgba(0, 0, 0, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.3);
+$box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 2px 2px 3px rgba(0, 0, 0, 0.4);
+$box-shadow3: 3px 3px 3px rgba(0, 0, 0, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.5);
 $box-shadow5: 2px 2px 3px rgba(0, 0, 0, 0.2), 3px 3px 5px rgba(0, 0, 0, 0.35);
+$box-shadow7: 5px 5px 5px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.5);
 $box-shadow-article: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 
 $box-shadow-gray: 1px 1px 2px rgba(43, 43, 43, 0.10), 2px 2px 3px rgba(43, 43, 43, 0.20);
@@ -18,82 +19,97 @@ $drop-shadow3: drop-shadow(3px 3px 3px rgba(255, 255, 255, .7));
 $drop-shadow5: drop-shadow(.5rem .5rem 1rem rgba(255, 255, 255, .85));
 
 $text-shadow: rgba(43, 43, 43, 0.5) 0.15em 0.15em 4px ;
+$text-shadow2: rgba(25, 25, 25, 0.7) 0.25em 0.25em 3px ;
+$text-shadow3: rgba(12, 12, 12, 0.7) 0.35em 0.35em 5px ;
 $text-shadow-drop: rgba(43,43,43,0.7);
-$text-shadow-drop2: rgba(225, 67, 68, 0.4) .09em .05em;
+$text-shadow-drop2: rgba(104,118,109, 0.3) .09em .05em;
+
+//colors:
 
 $ubatuba: #68766D;
 $ubatuba--10: rgba(104,118,109, .1);
+$ubatuba--20: rgba(104,118,109, .2);
+$ubatuba--30: rgba(104,118,109, .3);
+$ubatuba--40: rgba(104,118,109, .4);
+$magenta: rgb(145, 30, 80);
 
-// $amazon: #0d4773; //13 71 115
+$dodge: rgb(42, 94, 140);
+$dodge--20: rgba(42, 94, 140, 0.2);
+$dodge--30: rgba(42, 94, 140, 0.3);
+$dodge--50: rgba(42, 94, 140, 0.5);
+$dodge--70: rgba(42, 94, 140, 0.7);
 
-$gray: #e7e7e7; //231 231 231
-$gray-10: #f5f5f5; // 245 245 245;
-$gray-20: #DCDCDC; //220 220 220;
-$gray-30: #c6c6c6;// ;
-$gray-40: #949494; //148 148 148
-$gray-50: #C0C0C0;// 192 192 192;
-$gray-60: #646464; // 100 100 100
-$gray-80: #2b2b2b; // 43 43 43
-$gray-90: rgb(20,20,20);
-$gray-95: rgba(20,20,20,0.95);
+$yellow1: rgb(250, 210, 0); // #FAD200  same as #section1
+$yellow1--10: rgba(250, 210,0, 0.1);
+$yellow1--20: rgba(250, 210,0, 0.2);
+$yellow1--40: rgba(250, 210,0, 0.4);
+$yellow1--60: rgba(250, 210,0, 0.6);
 
+$yellow2: rgb(220, 200,120);
+$yellow2--10: rgba(220, 200,120, 0.1);
+$yellow2--20: rgba(220, 200,120, 0.2);
+$yellow2--40: rgba(220, 200,120, 0.4);
+$yellow2--60: rgba(220, 200,120, 0.6);
 
+$section1: #FAD200; // rgba(250, 210, 0, 1) yellow news
+$section2: #F85C4A; // rgba(248, 92, 74, 1) burnt orange highlights
+$section3: #7C0030; // rgba(124,0,48, 1) mauve wine student
+$section4A: #D1F2EB; // rgba(209, 242,235, 1) blue lt faculty 
+$section4B: #D2F896; // rgba(210,248,150, 1) green mayo
+$section4C: #F2E3FB; // rgba(242,227,251, 1) lilac
+$section4D: #0CEEFC; // rgba(12, 238, 252, 1) baby attitude
+$section4E: #31AADE; // rgba(49, 170, 222, 1) midsky blue
+$section4F: #2bb2a8; // rgba(43,178,168, 1) tealish
+$section5: #53821E; // rgba(83,130,30, 1) green Overview
+$section6: #1A4777; // rgba(26,71,119, 1) navy
+$section7: #C71585; // rgba(49, 170, 222, 1) medium magenta
+
+//felt-beige
+$felt-beige-lt-lt-lt: rgb(255, 255, 240); // cream
+$felt-beige-lt-lt: rgb(240, 240, 210); //
+$felt-beige-lt: rgb(220, 220, 180); //
+$felt-beige: rgb(200, 200, 160); //fomer $pm app baground / submenu
+$felt-beige-dk: rgb(170, 170, 140);
+$felt-beige-dk-dk: rgb(140, 140, 110);
+$felt-beige-dk-dk-dk: rgb(110, 110, 90);
+
+//felt-beige transparency
+$felt-beige--10: rgba(200, 200, 160, 0.1);
+$felt-beige--20: rgba(200, 200, 160, 0.2);
+$felt-beige--30: rgba(200, 200, 160, 0.3);
+$felt-beige--40: rgba(200, 200, 160, 0.4);
+$felt-beige--60: rgba(200, 200, 160, 0.6);
+$felt-beige--80: rgba(200, 200, 160, 0.8);
+$felt-beige--90: rgba(200, 200, 160, 0.9);
+
+// felt-red
+$felt-red-lt: rgb(190, 30, 5);
+$felt-red-med: rgb(120, 25, 5);
+$felt-red: rgb(100, 20, 5); 
+$felt-red-dk: rgb(70, 5, 5); 
+
+$felt-red--30: rgba(100, 20, 5, 0.3); 
+$felt-red--40: rgba(100, 20, 5, 0.3); 
+$felt-red--50: rgba(100, 20, 5, 0.5);
+$felt-red--60: rgba(100, 20, 5, 0.6);
+$felt-red--70: rgba(100, 20, 5, 0.7);   
+$felt-red--80: rgba(100, 20, 5, 0.8);
+
+//gray
+$gray-1: #f5f5f5; // 245, 245, 245;
+$gray-2: #e0e0e0; //224, 224, 224 very light gray
+$gray-4: #dcdcdc; //200, 200, 200  gray
+$gray-45: rgb(210, 200, 190);
+$gray-5: rgb(180, 180, 180); 
+$gray-55: rgb(120, 120, 120); 
+$gray-6: #6e6e6e; // 110, 100, 110 y
+$gray-7: #555555; // 85 85 85 dk gray
+$gray-8: #2b2b2b; // 43 43 43 very DK gray
+$gray-9: rgba(25,25,25,0.05); // 43 43 43 very DK gray
+
+$gray--10: rgba(43,43,43,0.1); // transparent
 $gray--20: rgba(43,43,43,0.2); // transparent
 $gray--40: rgba(43,43,43,0.4); // transparent
-$gray--50: rgba(43,43,43,0.5); // transparent
 $gray--60: rgba(43,43,43,0.6); // transparent
+$gray--62: rgba(15,15,35,0.6); // transparent
 $gray--80: rgba(43,43,43,0.8); // transparent
-$gray--90: rgba(43,43,43,0.9);
-
-// $background: #e7e5e3;
-$background--10: rgba(59, 100, 135, 0.1);
-$background--20: rgba(59, 100, 135, 0.2);
-$background--40: rgba(59, 100, 135, 0.4);
-$background--50: rgba(59, 100, 135, 0.5);
-$background--60: rgba(59, 100, 135, 0.6);
-$background--70: rgba(59, 100, 135, 0.7);
-$background--80: rgba(59, 100, 135, 0.8);
-$background: rgba(59, 100, 135, 1);
-
-$yesterday: rgba(42, 94, 140);
-$yesterday--20: rgba(42, 94, 140, 0.2);
-$yesterday--30: rgba(42, 94, 140, 0.3);
-$yesterday--40: rgba(42, 94, 140, 0.4);
-$yesterday--50: rgba(42, 94, 140, 0.5);
-$yesterday--60: rgba(42, 94, 140, 0.6);
-$yesterday--70: rgba(42, 94, 140, 0.6);
-$yesterday--80: rgba(42, 94, 140, 0.8);
-
-// beige with transparency
-$beige-light--10: rgba(208, 209, 205, .1);
-$beige-light--30: rgba(208, 209, 205, .3);
-$beige-light--70: rgba(208, 209, 205, .7);
-$beige-lighter--40: rgba(239, 240, 235, .4);
-$beige-lighter--60: rgba(239, 240, 235, .6);
-$beige-lighter--80: rgba(239, 240, 235, .8);
-
-$today: #fdb00a;
-$today--20: rgba(253, 176, 10, 0.2);
-$today--30: rgba(253, 176, 10, 0.3);
-$today--40: rgba(253, 176, 10, 0.4);
-$today--50: rgba(253, 176, 10, 0.5);
-$today--60: rgba(253, 176, 10, 0.6);
-$today--70: rgba(253, 176, 10, 0.7);
-$today--80: rgba(253, 176, 10, 0.8);
-$today--90: rgba(253, 176, 10, 0.9);
-
-$tomorrow: #e14344;
-$tomorrow--20: rgba(225, 67, 68, 0.2);
-$tomorrow--30: rgba(225, 67, 68, 0.3);
-$tomorrow--40: rgba(225, 67, 68, 0.4);
-$tomorrow--50: rgba(225, 67, 68, 0.5);
-$tomorrow--60: rgba(225, 67, 68, 0.6);
-$tomorrow--70: rgba(225, 67, 68, 0.7);
-$tomorrow--80: rgba(225, 67, 68, 0.8);
-$tomorrow--90: rgba(225, 67, 68, 0.9);
-$am2: #e0e0e0;
-$am: #c7c9c8;
-$pm: #dcdedd;
-$midday: #6e6e6e;
-$noon: #555555;
-$eve: #2d2d2d;
