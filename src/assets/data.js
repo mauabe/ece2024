@@ -35,7 +35,7 @@ export const panels = [
     lastName: "Izhikevich",
     text: "Global Visibility into the Internet's Performance and Security",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span><span>Lizz</span>",
-    image: "/2023-2025/img/Liz-Izhikevich-portrait.jpg",
+    image: "/2023-2025/img/Liz-Izhikevich.png",
     link: "news/izhikevich"
   },
   {
@@ -45,7 +45,7 @@ export const panels = [
     lastName: "Lou",
     text: "Transformative Potential of Computers Exploiting Quantum Effects",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "/2023-2025/img/DiLuo_portrait.jpg",
+    image: "../assets/images/di-luo.png",
     link: "news/izhikevich"
   },
   {
@@ -55,19 +55,19 @@ export const panels = [
     lastName: "Zhou",
     text: "The Intersection of Quantum Computation and Physics",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "/2023-2025/img/leo-zhou-portrait.jpg",
+    image: "../assets/images/leo-zhou.png",
     link: "news/leozhou"
   },
   {
     id: "deanpark",
-    title: "Dean",
-    firstName: 'A.-H. “Alissa” ',
+    title: "Samueli School Dean",
+    firstName: "A.-H. Alissa ",
     lastName: "Park",
     text: "The Leadership on the Path to Excellence",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "/2023-2025/img/Alissa-Park.jpg",
+    image: "../assets/images/Chair_Williams_Yang.png",
     link: "news/deanpark"
   }
 ];
 
-
+{/* <img  className={`panel-portrait`} alt={`UCLA Samueli ${panel.firstName} ${panel.lastName}`} /> */}

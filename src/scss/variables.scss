@@ -3,9 +3,10 @@ $values: 0 0 100px;
 $border-radius: 4px;
 $border-radius-half: 2px;
 
-$box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 2px 2px 3px rgba(0, 0, 0, 0.25);
-$box-shadow3: 3px 3px 3px rgba(0, 0, 0, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.3);
+$box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 2px 2px 3px rgba(0, 0, 0, 0.4);
+$box-shadow3: 3px 3px 3px rgba(0, 0, 0, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.5);
 $box-shadow5: 2px 2px 3px rgba(0, 0, 0, 0.2), 3px 3px 5px rgba(0, 0, 0, 0.35);
+$box-shadow7: 5px 5px 5px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.5);
 $box-shadow-article: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 
 $box-shadow-gray: 1px 1px 2px rgba(43, 43, 43, 0.10), 2px 2px 3px rgba(43, 43, 43, 0.20);
@@ -18,6 +19,8 @@ $drop-shadow3: drop-shadow(3px 3px 3px rgba(255, 255, 255, .7));
 $drop-shadow5: drop-shadow(.5rem .5rem 1rem rgba(255, 255, 255, .85));
 
 $text-shadow: rgba(43, 43, 43, 0.5) 0.15em 0.15em 4px ;
+$text-shadow2: rgba(25, 25, 25, 0.7) 0.25em 0.25em 3px ;
+$text-shadow3: rgba(12, 12, 12, 0.7) 0.35em 0.35em 5px ;
 $text-shadow-drop: rgba(43,43,43,0.7);
 $text-shadow-drop2: rgba(104,118,109, 0.3) .09em .05em;
 
@@ -86,6 +89,7 @@ $felt-red: rgb(100, 20, 5);
 $felt-red-dk: rgb(70, 5, 5); 
 
 $felt-red--30: rgba(100, 20, 5, 0.3); 
+$felt-red--40: rgba(100, 20, 5, 0.3); 
 $felt-red--50: rgba(100, 20, 5, 0.5);
 $felt-red--60: rgba(100, 20, 5, 0.6);
 $felt-red--70: rgba(100, 20, 5, 0.7);   
@@ -95,12 +99,17 @@ $felt-red--80: rgba(100, 20, 5, 0.8);
 $gray-1: #f5f5f5; // 245, 245, 245;
 $gray-2: #e0e0e0; //224, 224, 224 very light gray
 $gray-4: #dcdcdc; //200, 200, 200  gray
-$gray-5: rgb(200, 180, 180); 
+$gray-45: rgb(210, 200, 190);
+$gray-5: rgb(180, 180, 180); 
+$gray-55: rgb(120, 120, 120); 
 $gray-6: #6e6e6e; // 110, 100, 110 y
 $gray-7: #555555; // 85 85 85 dk gray
 $gray-8: #2b2b2b; // 43 43 43 very DK gray
+$gray-9: rgba(25,25,25,0.05); // 43 43 43 very DK gray
 
 $gray--10: rgba(43,43,43,0.1); // transparent
 $gray--20: rgba(43,43,43,0.2); // transparent
 $gray--40: rgba(43,43,43,0.4); // transparent
+$gray--60: rgba(43,43,43,0.6); // transparent
+$gray--62: rgba(15,15,35,0.6); // transparent
 $gray--80: rgba(43,43,43,0.8); // transparent

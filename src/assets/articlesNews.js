@@ -4,7 +4,7 @@ export const articlesNews = [
     bubbleTextOne: 'Last ',
     bubbleTextTwo: 'Remarks',
     bubbleTextThree: '',
-    articleHeadlineOne:'Department Chair Ken Yang',
+    articleHeadlineOne:'Department Chair C.-K. Ken Yang',
     articleHeadlineTwo:'Last Remarks of Memorable Times',
     articleHeadlineThree: '',
     articleCallout1: '',
@@ -24,7 +24,7 @@ export const articlesNews = [
     articleImageMain: '/2023-2025/img/1-istiqlal.jpg',
     articleImageAltTextMain: '',
     articleImageProf: '/2023-2025/img/ckkenyang.jpg',
-    articleImageAltTextProf: 'ECE  Chair CK Ken Yang',
+    articleImageAltTextProf: 'ECE  Chair C.-K. Ken Yang',
     articleImageCred: '',
     articleAuthor: '',
     articleCaption1: '',
@@ -142,8 +142,8 @@ export const articlesNews = [
     articleHeadlineThree: '',
     articleCallout1: '',
     articleCallout2: '',
-    articleImage1: '/2023-2025/img/Chair_Benjamin_Williams.jpg',
-    articleImage2:'',
+    articleImage1: '/2023-2025/img/Chair_Williams_Yang.png',
+    articleImage2: '',
     articleImage3: '',
     articleImage4:'',
     articleImage5:'',
@@ -160,9 +160,9 @@ export const articlesNews = [
     articleImageAltTextProf: 'Alissa Park, Ronald and Valerie Sugar Dean and Professor',
     articleImageCred: '',
     articleAuthor: '',
-    articleCaption1: 'The incoming ECE Department Chair Benjamin Wiliiams.',
+    articleCaption1: 'Departing ECE Department Chair C.K. Ken Yang and incoming Chair Benjamin Wiliiams.',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: ' <p style="text-indent:0"><span class="first-letter">P</span>rofessor Ken Yang has been serving as Chair of Electrical and Computer Engineering. His term is ending at the end of June 2025and he has expressed a desire to step down. I would like to take this opportunity to express my personal gratitude and that of my colleagues to Professor Yang for his stewardship of the ECE Department and to congratulate him on a job well done.</p><p>During his tenure, Professor Yang has been successful in recruiting excellent faculty members, managing departmental resources, and improving the curriculum at both undergraduate and graduate levels.Under his leadership, the department strengthened multidisciplinary collaborations and created a diverse and inclusive environment for students, faculty, and staff. While providing service to the department, Professor Yang has maintained a very active and distinguished record of research, teaching, and mentoring of graduate students. As such he joins a select company of department Chairs.</p><p>We faced the challenging task of finding someone to lead the Department for the next several years and maintain the tradition of excellent leadership. As leader of the department, the chair’s duties include planning the programs, keeping the curriculum current, recruiting, selecting, and evaluating both faculty and staff personnel. Primarily, the chair is expected to maintain a climate that is hospitable to creativity and innovation. The Department Chair should be receptive to questions, discussions, and suggestions from members of the department (including faculty, staff personnel, and students), and should take appropriate action. Further, the chair of a department is expected to remain active in both teaching and research in order to maintain his or her capabilities in the appropriate field of scholarship.</p><p>The process for appointing or reappointing a Department Chair in the HSSEAS is not an election. The pitfall with conducting an election is that it can result in putting forward someone who may not have the qualities that management of an academic department requires:<br>The ability to espouse the vision necessary to lead the department in its quest for excellence and improved national ranking.<br>The fundamental commitment to the department and its mission — that is, an attitude of service to the department.<br>The personality and attitude for collegiality, diplomacy, and fairness in dealing with people.<br>The broad reputation to greatly enhance the department’s visibility in the national and international scientific community.<br></p><p>We welcome Benjamin Williams as the new chair for the Electrical and Computer Engineering Department. We wish him all the best in his tenure and hoping he leads the ECE Department on the path to excellence.</p><br><b>A.-H. “Alissa” Park</b><br><span>Ronald and Valerie Sugar Dean and Professor</span>'
+    textCopy: ' <p style="text-indent:0"><span class="first-letter">P</span>rofessor C.-K.Ken Yang has been serving as Chair of Electrical and Computer Engineering. His term is ending at the end of June 2025and he has expressed a desire to step down. I would like to take this opportunity to express my personal gratitude and that of my colleagues to Professor Yang for his stewardship of the ECE Department and to congratulate him on a job well done.</p><p>During his tenure, Professor Yang has been successful in recruiting excellent faculty members, managing departmental resources, and improving the curriculum at both undergraduate and graduate levels.Under his leadership, the department strengthened multidisciplinary collaborations and created a diverse and inclusive environment for students, faculty, and staff. While providing service to the department, Professor Yang has maintained a very active and distinguished record of research, teaching, and mentoring of graduate students. As such he joins a select company of department Chairs.</p><p>We faced the challenging task of finding someone to lead the Department for the next several years and maintain the tradition of excellent leadership. As leader of the department, the chair’s duties include planning the programs, keeping the curriculum current, recruiting, selecting, and evaluating both faculty and staff personnel. Primarily, the chair is expected to maintain a climate that is hospitable to creativity and innovation. The Department Chair should be receptive to questions, discussions, and suggestions from members of the department (including faculty, staff personnel, and students), and should take appropriate action. Further, the chair of a department is expected to remain active in both teaching and research in order to maintain his or her capabilities in the appropriate field of scholarship.</p><p>The process for appointing or reappointing a Department Chair in the HSSEAS is not an election. The pitfall with conducting an election is that it can result in putting forward someone who may not have the qualities that management of an academic department requires:<br>The ability to espouse the vision necessary to lead the department in its quest for excellence and improved national ranking.<br>The fundamental commitment to the department and its mission — that is, an attitude of service to the department.<br>The personality and attitude for collegiality, diplomacy, and fairness in dealing with people.<br>The broad reputation to greatly enhance the department’s visibility in the national and international scientific community.<br></p><p>We welcome Benjamin Williams as the new chair for the Electrical and Computer Engineering Department. We wish him all the best in his tenure and hoping he leads the ECE Department on the path to excellence.</p><br><b>A.-H. “Alissa” Park</b><br><span>Ronald and Valerie Sugar Dean and Professor</span>'
   }
 ];

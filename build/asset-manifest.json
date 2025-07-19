@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/2023-2025/static/css/main.54c10273.css",
-    "main.js": "/2023-2025/static/js/main.a4a1457b.js",
-    "static/media/microprocessor-zhvgeirSXgU.jpg": "/2023-2025/static/media/microprocessor-zhvgeirSXgU.865a27a490e96a9f522d.jpg",
-    "static/media/hex-computer-grid-steve-johnson.jpg": "/2023-2025/static/media/hex-computer-grid-steve-johnson.2409d657f77e68113404.jpg",
-    "static/media/wireless-network-nick-fancher.jpg": "/2023-2025/static/media/wireless-network-nick-fancher.467d5bbeb20ed3af3238.jpg",
-    "static/media/dark-skin-doctor.jpg": "/2023-2025/static/media/dark-skin-doctor.0aef8b64e17b4d7e3e64.jpg",
-    "static/media/flame-semiconductor.jpg": "/2023-2025/static/media/flame-semiconductor.5ff03a1af66019f1a287.jpg",
-    "static/media/Maxwell-statue.jpg": "/2023-2025/static/media/Maxwell-statue.aac520bf48483c686e02.jpg",
+    "main.css": "/2023-2025/static/css/main.adfd2bea.css",
+    "main.js": "/2023-2025/static/js/main.2ab000db.js",
+    "static/media/Liz-Izhikevich.png": "/2023-2025/static/media/Liz-Izhikevich.a361aa20a5e6df821603.png",
+    "static/media/Futuristic.jpg": "/2023-2025/static/media/Futuristic.bcb289652bd8ddf3af4d.jpg",
+    "static/media/leo-zhou.png": "/2023-2025/static/media/leo-zhou.7e9dc308d29d06744eb2.png",
+    "static/media/di-luo.png": "/2023-2025/static/media/di-luo.54c0695609b54becf191.png",
+    "static/media/Chair_Williams_Yang.png": "/2023-2025/static/media/Chair_Williams_Yang.a9671118421616b07e63.png",
     "static/media/webb.png": "/2023-2025/static/media/webb.c9a973c1c0b7166c0a56.png",
     "static/media/white_rhombus.png": "/2023-2025/static/media/white_rhombus.681aaffa8d1a96c8663c.png",
     "static/media/ucla-samueli-logo-white.svg": "/2023-2025/static/media/ucla-samueli-logo-white.8c380807eaeb20d7155efdfc9c328bd0.svg",
     "static/media/ECE.svg": "/2023-2025/static/media/ECE.e7bc92928069e853dc67e1a3dcc60d0c.svg",
     "static/media/ECE_white.svg": "/2023-2025/static/media/ECE_white.c0d65bdaabb1a0d4274c515cf57c1c8a.svg",
     "index.html": "/2023-2025/index.html",
-    "main.54c10273.css.map": "/2023-2025/static/css/main.54c10273.css.map",
-    "main.a4a1457b.js.map": "/2023-2025/static/js/main.a4a1457b.js.map"
+    "main.adfd2bea.css.map": "/2023-2025/static/css/main.adfd2bea.css.map",
+    "main.2ab000db.js.map": "/2023-2025/static/js/main.2ab000db.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c10273.css",
-    "static/js/main.a4a1457b.js"
+    "static/css/main.adfd2bea.css",
+    "static/js/main.2ab000db.js"
   ]
 }

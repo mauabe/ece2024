@@ -6,19 +6,21 @@
   //panel-content-area + panel${id} >
     //panel + data-active::before >
       //panelContent >
-        //a > linkText
-        //panelTop >
-          //(panelTitle, panelFirstName, panelLastName, panelText + showText,
-        //panelImage + panel${id}
+      //panelTop >
+      //(panelTitle, panelFirstName, panelLastName, panelText  + a > linkText
+      //no showText,
+          //
+      //panelImage + panel${id}
 
 .panel-content-area {
   display: flex;
   height: 82vh;
   flex-direction: row;
   justify-content: space-evenly;
-  padding:10vh 2em 3em 2em;
+  padding: 5vh 2em 0 2em;
   margin: 3em 0 2em 0;
   width: 100vw;
+  // background-image: url("../assets/images/Futuristic.jpg");
 
   .panel{
     display: flex;
@@ -26,196 +28,246 @@
     z-index: 20;
     margin: 1em;
     flex-direction: column;
-    height: 55vh;
-    border: 1px solid $gray-4;
-    border-radius: 1em;
-    background: radial-gradient($felt-beige--60, $felt-beige--80);
-    box-shadow: .5em .5em 0.5em rgba(0, 0, 0, 0.3),
-    .2em 0.2em 0.8em rgba(0, 0, 0, 0.3);
+    // height: 70vh;
+    border: 1px solid $gray-6;
+    border-radius: $border-radius-half;
+    background: linear-gradient($gray--62, $felt-beige--60);
+    box-shadow: $box-shadow7;
+    // box-shadow: .5em .5em 0.5em rgba(0, 0, 0, 0.3),
+    // .2em 0.2em 0.8em rgba(0, 0, 0, 0.3);
+    // color: $gray-2;
+    transition: all 0.3s ease-in-out;
 
-    //.polycard
-    perspective: 600px;
 
-    &::before {
-        content: " ";
-        position: absolute;
-        left: 0;
-        top: 50%;
-        border-radius: 0 0 1em 1em;
-        width: 100%;
-        height: 50%;
-        transform-origin: center top;
-        transform: rotateX(180deg);
 
-        background: $felt-beige--60
-        linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4));
-        transition: 0.7s ease-in-out  transform;
-    }
+    // &::before {
+    //     content: " ";
+    //     position: absolute;
+    //     left: 0;
+    //     top: 65%;
+    //     width: 100%;
+    //     height: 50%;
+    //     // background: $felt-beige--40
+    //     //   linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4));
+    //     transition: 0.7s ease-in-out  transform;
+    //     color: dodgerblue;
+    // }
 
-    &:hover::before {
-        transform: rotateX(0);
-        color: $felt-beige--40;
-    }
+    // &:hover::before {
+    //     color: green;
+    // }
 
     &.active {
-      &::before {
-        transform: rotateX(0);
-      }
+      color: $gray-45;
+      // &::before {
+      // }
       .panelContent {
         .panelTop {
-          .panelLastName, .panelFirstName, .panelText {
-            color: $gray-8;
+          .panelLastName, .panelFirstName {
+            color: $gray-2;
+            // color: $gray-4;
           }
         }
         .panelImage{
-          filter:  blur(2px) opacity(.6);
+          filter:  grayscale(.05);
         }
       }
       &:hover::before {
-        transform: rotateX(180);
+        // color: $gray--80;
+        // color: yellowgreen;
+        // filter:  grayscale(.05);
       }
-    }
+    } //end of active
 
-    .panelContent {
-      height: 50%;
-      color: $gray-6;
-      transition:
-        color 0.4s ease-in-out,
-        filter 0.9s ease-in-out;
+      .panelContent {
+        position: relative;
+        // color: $gray-4;
+        transition:
+          color 0.3s ease-in-out,
+          filter 0.6s ease-in-out;
+        
+        .panelTop{
+          display: flex;
+          flex: 0 0 50%;
+          flex-direction: column;
+          padding: 3em 1.5em 1em 1.5em;
+          line-height: 2.2;
+          text-shadow: $text-shadow3;
+          // color: $gray-5;
+          // height: 95%;
+          
+          .panelTitle {
+            font-family:'Nova Square', sans-serif;
+            font-size: 1.1em;
+            color: $gray-45;
+            text-shadow: .1em .1em .4px $gray-8;
+          }
+          .panelName{
+            color: $gray-5;
+            line-height: 3.8;
 
-      .panelTop{
-        display: flex;
-        flex: 0 1 25%;
-        flex-direction: column;
-        margin: 2em 1em 0.5em 1em;
-
-        .panelTitle {
-          font-family:'Nova Square', sans-serif;
-          font-size: 1em;
-        }
-        .panelFirstName {
-          font-family:'Nova Square', sans-serif;
-          font-size: 1.4em;
-          padding: .3em 0 0 0;
-        }
-        .panelLastName {
-          font-family: 'Raleway', sans-serif;
-          font-weight: 900;
-          font-size: 1.9em;
-          line-height: 1.5;
-          text-shadow: .2em .2em .2em rgba(45, 45, 45, 0.5);
-        }
-        .panelText {
-          font-family:'Nova Square', sans-serif;
-          font-size: 1.1em;
-          line-height: 1.3 ;
-          padding: .5em 0 .5em 0;
-          &.showText{
-            color: $gray-6;
+            .panelFirstName {
+              font-family:'Nova Square', sans-serif;
+              font-weight: 400;
+              font-size: 1.5em;
+              // color: $gray-5;
+            }
+            .panelLastName {
+              font-family: 'Raleway', sans-serif;
+              font-weight: 900;
+              font-size: 1.9em;
+              // color: $gray-5;
+            }
+          }
+          .panelText {
+            font-family:'Nova Square', sans-serif;
+            font-size: 1.4em;
+            line-height: 1.7;
+            text-shadow: $text-shadow;
+            color: $gray-2;
+            &.showText{
+              color: $gray-1;
+            }
+            .linkText {
+              display: flex;
+              float: right;
+              align-self: flex-start;
+              margin: 3em .5em 0 .5em;
+              padding: .2em;
+              color: $gray-4;
+              background-color: $felt-red--60;
+              transition:
+                color 0.3s ease-in-out,
+                background-color 0.5s ease-in-out ;
+    
+              .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 900,
+                'GRAD' 0,
+                'opsz' 48
+              }
+              &:hover{
+                color: $gray-1;
+                background-color:$felt-red--80;
+              }
+            }
           }
         }
+
+      panelImage{
+        position: relative;
+        // justify-self: stretch;
+        // position: absolute;
+        // object-fit: cover;
+        // object-position: 50% 50%;
+        // justify-self: center;
+        // height: 85%;
+        // width: 105%;
+        // z-index: 60;
+        // padding: 1em 0 0 0;
+        filter:  grayscale(.86);
+        // &:hover{
+        //   transition: all 0.6s ease-in-out;
+        //   filter: grayscale(.05);
+        //   filter: brightness(.8) opacity(.6);
+        // }
       }
 
-      .linkText {
-        display: flex;
-        float: right;
-        align-self: flex-start;
-        margin: 1em .5em;
-        padding: .5em;
-        color: $gray-4;
-        background-color: $felt-red--70;
-        transition:
-          color 0.3s ease-in,
-          background-color 0.3s ease-in ;
-
-        .material-symbols-outlined {
-          font-variation-settings:
-          'FILL' 0,
-          'wght' 900,
-          'GRAD' 0,
-          'opsz' 48
-        }
-        &:hover{
-          color: $gray-6;
-          background-color:$felt-red;
-        }
+      .panel-portrait{
+        width: auto;
+        height: 25em;
+        // width: 105%;
+        // height: 100%;
+        // height: 300px;
+        margin: 0 auto;
+        // background-size: cover;
+        // background-position: center center;
+        // background-repeat: no-repeat;
+        // overflow: hidden;
+        // border: 12px solid blue;
+        // position: absolute;
+        // bottom: 0; 
+        // left: 0;
+        // object-fit: contain;
+        // object-position: bottom;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position: bottom center;
+        // overflow: hidden;
       }
 
-      &:hover{   //hover over panelContent
-        cursor: context-menu;
+      .lizizhikevich{
+        // width: auto;
+        // height: 400px;
+        background-image: url("/assets/images/Liz-Izhikevich.png");
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center; /* Centers the image within the div */
+        overflow: hidden;
+        // background-size: contain;
 
-        .panelImage{
-          filter:  blur(1px) opacity(.6);
-        }
+        // position: absolute;
+        // bottom: 0; 
+        // left: 0;
+        // width: 105%;
+        // margin: 0 auto;
+        // object-fit: cover;
+        // object-position: center top;
+        // padding: 1em 0 0 0;
+
+        // background-image: url("https://source.unsplash.com/WqhP-Oq2aVY/1500x1500"); //encounter glass wall
+      }
+      .dilou{
+        background-position: top center;
+        // background-size: contain; /* or contain */
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("/assets/images/di-luo.png");
+      }
+      .leozhou{
+        background-image: url("/assets/images/leo-zhou.png");
+        background-position: top center;
+        // background-size: contain; /* or contain */
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      .deanpark{
+        background-image: url("/assets/images/Chair_Williams_Yang.png");
+        background-origin: border-box;
+        background-position: bottom center;
+        background-size: 100%;
+        // background-size: contain; /* or contain */
+        background-repeat: no-repeat;
+        // width: 110%;
+        overflow: hidden;
       }
 
-    .panelImage{
-      position: absolute;
-      height: 50%;
-      width: 100%;
-      top: 50%;
-      padding:1em 2em;
-      background-size: cover;
-      background-position: center center;
-      overflow: hidden;
-      border-radius: 0 0 1em 1em;
-      z-index: 60;
+    } // end of panelContent
 
-      // &:hover::before{
-        // filter: blur(1px) brightness(.8) opacity(.6);
-        // filter: blur(2px);
-      // }
-
+  &:hover{   //hover over panelContent
+    transition: all 0.3s ease-in-out;
+    box-shadow: $box-shadow3;
+    text-shadow: $text-shadow3;
+    // color: $gray-1;
+    cursor: context-menu;
+    .panelName{
+      color: $gray-1;
+      text-shadow: $text-shadow2;
     }
-
-
-    } // end of panel-content
+    .panelImage{
+      filter: grayscale(.3);
+    }
+  }
   } // end of panel
 } //end panel-content-area
 
-
-.lizizhikevich{
+.home-image{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("../assets/images/Liz-Izhikevich-portrait.jpg");
-  // background-image: url("https://source.unsplash.com/WqhP-Oq2aVY/1500x1500"); //encounter glass wall
+  background-image: url("/assets/images/Futuristic.jpg");
 }
-.dilou{
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("/2023-2025/img/DiLuo_portrait.jpg");
-}
-.leozhou{
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("/2023-2025/img/leo-zhou-portrait.jpg");
-
-}
-.deanpark{
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("/2023-2025/img/Alissa-Park.jpg");
-}
-.kangwanginventors{
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("/2023-2025/img/Alissa-Park.jpg");
-  // background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
-
-}
-.kadambiaward{
-  object-fit: cover;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("/assets/images/dark-skin-doctor.jpg");
-}
-
 
 
 @media only screen and (max-width: 1200px) {
@@ -229,7 +281,7 @@
     .panel {
       flex-direction: row;
       max-height: 14%;
-      filter: grayscale(0.1);
+      // filter: grayscale(0.1);
       .panelContent {
         top: 1em;
         flex-direction: row;
@@ -245,8 +297,8 @@
       }
 
       &:hover{
-        transition: filter 0.3s ease-in-out 0.3s;
-        filter: grayscale(0.1);
+        // transition: filter 0.3s ease-in-out 0.3s;
+        // filter: grayscale(0.1);
       }
     }
   }

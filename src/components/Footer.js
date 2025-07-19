@@ -10,7 +10,7 @@ const Footer = () => {
     <div className=" site-footer ">
       <Link to={'/'}>
           <img
-          className="footer-logo"
+            className="footer-logo"
             src={logoFooter}
             alt="UCLA Samueli School of Engineering"
             title="UCLA Samueli School of Engineering Logo"

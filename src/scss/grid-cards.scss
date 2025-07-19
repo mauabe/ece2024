@@ -97,9 +97,9 @@
       transition: all 0.3s ease-in-out;
       min-width: 320px;
       min-height: 200px;
-      border-radius: $border-radius-half;
+      border-radius: $border-radius;
       border: 1px solid $gray-6;
-      background-color: $felt-beige--60;
+      background-color: $dodge--30;;
       align-items: center;
       padding: 1em;
 
@@ -129,10 +129,12 @@
     grid-template-rows: auto ;
     grid-gap: 1.5em;
     text-indent: 0;
+    min-width: 320px;
 
     .card{
       display: grid;
-      background-color: $felt-beige--60;
+      border-radius: $border-radius;
+      background-color: $dodge--30;
       padding: 1.3em ;
 
        .student-frame{
@@ -165,7 +167,7 @@
       transition: all 0.3s ease-in-out;
       border-radius: $border-radius;
       border: 1px solid $gray-6;
-      background-color: $felt-beige--60;
+      background-color: $dodge--30;
       align-items: start;
       padding: 1.2em;
       max-width: 100%;
@@ -202,7 +204,7 @@
     font-weight: 600;
     font-size: 1.5em;
     color: $gray-6;
-    text-align: center;
+    text-align: start;
     margin: 2rem;
   }
 
@@ -217,7 +219,7 @@
 
   .p-name{
     font-family: 'Raleway', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: $gray-8;
     text-align: center;
     margin: 0.4em 0 0.4em 0;
@@ -233,7 +235,7 @@
     font-family: 'Libre Caslon Text', serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 1em;
+    font-size: .85em;
     color: $gray-8;
     text-align: center;
     margin: 0 0 .2em 0;

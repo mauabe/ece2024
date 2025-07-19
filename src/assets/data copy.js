@@ -66,7 +66,7 @@ export const panels = [
     text: "Awarded James Clerk Maxwell Medal",
     linkText: "../assets/images/joy.jpg",
     image: "https://source.unsplash.com/Kj2SaNHG-hg/1500x1500",
-    link: "highlights/kadambiaward"
+    link: "highlights/"
   },
   {
     id: "kangwanginventors",
@@ -78,16 +78,7 @@ export const panels = [
     image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
     link: "highlights/kangwanginventors"
   },
-  {
-    id: "kadambiaward",
-    title: "Asst. Professor",
-    firstName: "Achuta",
-    lastName: "Kadambi",
-    text: "Recognized for Promoting Inclusivity in Engineering",
-    linkText: "../assets/images/joy.jpg",
-    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
-    link: "highlights/kadambiaward"
-  },
+
 ];
 
     /* unsplash:

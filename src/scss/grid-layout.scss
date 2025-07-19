@@ -128,11 +128,11 @@
       font-size: 0.8em;
       position: relative;
       background-color: $gray-4;
-      // min-width: 5rem;
       // min-height: 6rem;
-
+      
       width: 150px;
       max-width: 155px;
+      min-width: 150px;
       min-height: 188px;
       height: 190px;
       object-fit: cover;
