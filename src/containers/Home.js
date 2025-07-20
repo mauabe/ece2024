@@ -30,30 +30,34 @@ class Home extends Component{
 
       html.push(
         <div 
-          className={`panel ${panel.id} ${activeClassName}`} 
+          className={`panel ${activeClassName}`} 
           data-active={activeClassName} 
           key={panel.id} 
           onClick={(e) => this.setState({currentPanel: panel.id})}
         >
           <div className="panelContent" >
             <div className="panelTop">
-              <div className="panelTitle">{panel.title}</div>
-              <div className="panelName">
-                <span className="panelFirstName">{panel.firstName}</span> 
-                <span className="panelLastName">{panel.lastName}</span>
-              </div>
-              <div className={`panelText ${panelSelected}`}>
-                {parse(panel.text)}
-                  <Link to={`/${panel.link}`} >
-                    <div className="linkText">
-                      {/* <span >&#x2B22;</span> */}
-                      <span className='material-symbols-outlined'>arrow_forward</span>
-                    </div>
-                  </Link>
-              </div>
+              <Link to={`/${panel.link}`} >
+                <div className="panelTitle">{panel.title}</div>
+                <div className="panelName">
+                  <span className="panelFirstName">{panel.firstName}</span> 
+                  <span className="panelLastName">{panel.lastName}</span>
+                </div>
+                <div className={`panelText ${panelSelected}`}>
+                  {parse(panel.text)}
+                    <Link to={`/${panel.link}`} >
+                      <div className="linkText">
+                        {/* <span >&#x2B22;</span> */}
+                        <span className='material-symbols-outlined'>arrow_forward</span>
+                      </div>
+                    </Link>
+                </div>
+              </Link>
             </div>
-            <div className={` ${panel.id}`}>
-              <div className={`panel-portrait`}></div>
+            <div className={`panelBottom`}>
+              <div className={`image-bottom image-${panel.id}`}>
+                <div className={`panel-portrait`}></div>
+              </div>   
             </div>   
           </div>
         </div>
@@ -68,7 +72,7 @@ class Home extends Component{
     // const currentPanel = this.state.currentPanel;
     return(
       <div className="content-area home-image">
-        <div className={`panel-content-area ${this.state.currentPanel}`}>
+        <div className={`panel-content-area selected:${this.state.currentPanel}`}>
             {console.log('this.state.currentPanel inside render:',  this.state.currentPanel)}
             {this.panelContainer()}
         </div>

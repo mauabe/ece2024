@@ -60,7 +60,7 @@ export const panels = [
   },
   {
     id: "deanpark",
-    title: "Samueli School Dean",
+    title: "SAMUELI DEAN",
     firstName: "A.-H. Alissa ",
     lastName: "Park",
     text: "The Leadership on the Path to Excellence",

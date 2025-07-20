@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/2023-2025/static/css/main.adfd2bea.css",
-    "main.js": "/2023-2025/static/js/main.2ab000db.js",
-    "static/media/Liz-Izhikevich.png": "/2023-2025/static/media/Liz-Izhikevich.a361aa20a5e6df821603.png",
-    "static/media/Futuristic.jpg": "/2023-2025/static/media/Futuristic.bcb289652bd8ddf3af4d.jpg",
-    "static/media/leo-zhou.png": "/2023-2025/static/media/leo-zhou.7e9dc308d29d06744eb2.png",
-    "static/media/di-luo.png": "/2023-2025/static/media/di-luo.54c0695609b54becf191.png",
-    "static/media/Chair_Williams_Yang.png": "/2023-2025/static/media/Chair_Williams_Yang.a9671118421616b07e63.png",
+    "main.css": "/2023-2025/static/css/main.2126c50a.css",
+    "main.js": "/2023-2025/static/js/main.ae7a6f90.js",
+    "static/media/Liz-Izhikevich.png": "/2023-2025/static/media/Liz-Izhikevich.a85ece38e7588f2d908b.png",
+    "static/media/leo-zhou.png": "/2023-2025/static/media/leo-zhou.2c4fbf47f464875cd265.png",
+    "static/media/Futuristic.jpg": "/2023-2025/static/media/Futuristic.9170b5150a0d3270f5c4.jpg",
+    "static/media/di-luo.png": "/2023-2025/static/media/di-luo.33e3e717b69fc623dfb2.png",
+    "static/media/Chair_Williams_Yang.png": "/2023-2025/static/media/Chair_Williams_Yang.eaff2b8b5dc719ee209d.png",
     "static/media/webb.png": "/2023-2025/static/media/webb.c9a973c1c0b7166c0a56.png",
     "static/media/white_rhombus.png": "/2023-2025/static/media/white_rhombus.681aaffa8d1a96c8663c.png",
     "static/media/ucla-samueli-logo-white.svg": "/2023-2025/static/media/ucla-samueli-logo-white.8c380807eaeb20d7155efdfc9c328bd0.svg",
     "static/media/ECE.svg": "/2023-2025/static/media/ECE.e7bc92928069e853dc67e1a3dcc60d0c.svg",
     "static/media/ECE_white.svg": "/2023-2025/static/media/ECE_white.c0d65bdaabb1a0d4274c515cf57c1c8a.svg",
     "index.html": "/2023-2025/index.html",
-    "main.adfd2bea.css.map": "/2023-2025/static/css/main.adfd2bea.css.map",
-    "main.2ab000db.js.map": "/2023-2025/static/js/main.2ab000db.js.map"
+    "main.2126c50a.css.map": "/2023-2025/static/css/main.2126c50a.css.map",
+    "main.ae7a6f90.js.map": "/2023-2025/static/js/main.ae7a6f90.js.map"
   },
   "entrypoints": [
-    "static/css/main.adfd2bea.css",
-    "static/js/main.2ab000db.js"
+    "static/css/main.2126c50a.css",
+    "static/js/main.ae7a6f90.js"
   ]
 }
