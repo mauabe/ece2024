@@ -70,4 +70,3 @@ export const panels = [
   }
 ];
 
-{/* <img  className={`panel-portrait`} alt={`UCLA Samueli ${panel.firstName} ${panel.lastName}`} /> */}

@@ -259,7 +259,7 @@
     line-height: 1.2em;
   };
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
   .panel-content-area{
     display: flex;
     flex-direction: column;
@@ -267,7 +267,7 @@
 
     .panel {
       flex-direction: row;
-      height: 24%;
+      height: 25%;
       // filter: grayscale(0.1);
       .panelContent {
         display: flex;
@@ -275,37 +275,36 @@
         flex-direction: row;
         padding: 1.5em 1.5em;
         .panelTop{
-          margin: 0;
+          margin: 0 2em 0 1em;
           padding: 0;
+          width: 100%;
+          .panelText .linkText{ display: none}
         }
         .panelBottom{
-          margin: 0;
-          padding: 1em 0 0 0;
-          width: 20%;
-          height: 200px;
+          margin: 0 0 0 1em;
+          padding: 0;
+          width: 100%;
+          height: 10em;
           flex-direction: row; 
           justify-content: flex-end;
 
           .image-bottom{
-             width: 100%;
-            //  height: 200px;
+            width: 100%;
+            height: 11em;
+            background-position: left top; 
           }
           .image-lizizhikevich{
-            //  width: 30%;
-             height: 150px;
-            background-position: center top;          }
+            margin: 0 0 0 1em;
+          }
          .image-dilou{
-            // width: 20%;
-            height: 150px;
+            margin: 0 0 0 1em;
           }
           .image-leozhou{
-            // width: 20%;
-            height: 150px;
+            margin: 0 0 0 2em;
            }
           .image-deanpark{
-            // width: 110%;
-            height: 150px;
-
+            width: 180%;
+            margin: 0 0 0 2em;
           }
         }
       }
@@ -317,8 +316,4 @@
     }
   }
 
-  .article {
-    margin-left: 4%;
-    margin-right: 4%;
-  }
 }
