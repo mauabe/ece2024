@@ -276,8 +276,7 @@
 /* Large screens */
 @media only screen and (max-width: 1200px) {
   .article {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin: 0 8% 0 8%;
   }
 
   .headline-lead{
@@ -288,7 +287,6 @@
   }
   .article-subhead{
     font-size: 1.4em;
-    // margin-bottom: 1em;
   }
   .text-copy{
     text-indent: 2em;
@@ -299,17 +297,13 @@
   }
 
   .picture-area.pict-area{
-      // display: block;
     .row{
       grid-template-columns: 1fr;
-      // display: block;
-      // align-items: center;
     }
   }
   .row{
     grid-template-columns: 1fr;
   }
-
   .twocolumns {
     display: grid;
     grid-column: span 1;
@@ -319,28 +313,23 @@
 }
 
 /* Medium screens */
-
 @media only screen and (max-width: 950px) {
   .article {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin: 0 8% 0 8%;
   }
   .picture-area, .pict-area{
     display: block;
-    // margin: auto;
     .row{
       display: block;
       align-items: center;
       grid-template-columns: 1fr;
-      // margin: 1em auto 1em auto;
     }
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
   .article {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 3% 0 3%;
   }
 }
 

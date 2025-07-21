@@ -12,7 +12,8 @@
     margin: 0 2rem;
     flex: none;
     position: fixed;
-    z-index: 10;
+    z-index: 20;
+    min-width: 80px;
 
     .logo-image{
       width: 86px;
@@ -63,29 +64,50 @@
     }
   } //end of ul.menu-container
 
-  // /* Medium screens */
-  // @media all and (max-width: 800px) {
-  //   margin-bottom: 2em;
-
-  // }
-
-  /* Medium screens */
-  @media all and (max-width: 850px) {
-    .navigation {
-      min-height: auto;
-
-      .menu-container {
-      //     /* When on medium sized screens, we center it by evenly distributing empty space around items */
-        justify-content: space-around;
+   /* Medium screens */
+  @media all and (max-width: 1200px) {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+       ul.menu-container {
+        margin: 0 8% 0 8%;
       }
+      .logos{
+         margin: 0 .8em;
+         min-width: 60px;
+         .logo-image{
+           width: 70px;
+           height: auto;
+         }
+       }
+  }
+  @media all and (max-width: 1000px) {
+ 
+    ul.menu-container {
+      /* On small screens, wrap menu */
+      // justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 0 8% 0 10%;
+      // padding: .3em 0 0 0;
+      height: 7em;
     }
   }
 
   /* Small screens */
-  @media all and (max-width: 600px) {
-    .menu-container {
-      /* On small screens, we are no longer using row direction but column */
+  @media all and (max-width: 850px) {
+    ul.menu-container {
+      /* On small screens, wrap menu */
+      margin: 0 8% 0 12%;
+      // height: 7em;
+    }
+  }
+  @media all and (max-width: 750px) {
+    .navigation{
       flex-direction: column;
+
+    }
+    ul.menu-container {
+      /* On very small screens, wrap menu */
+      margin: 0 3% 0 3%;
+      
     }
   }
 }
