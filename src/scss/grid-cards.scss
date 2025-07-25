@@ -129,13 +129,14 @@
     grid-template-rows: auto ;
     grid-gap: 1.5em;
     text-indent: 0;
-    min-width: 320px;
+    min-width: 340px;
 
     .card{
       display: grid;
       border-radius: $border-radius;
       background-color: $dodge--30;
-      padding: 1.3em ;
+      padding: 1.3em;
+      min-width: 320px;
 
        .student-frame{
          margin: 2em auto ;
@@ -331,7 +332,7 @@
   }
   .grid-cards{
     grid-template-columns: 1fr;
-    .card-deck, .card-credits{
+    .card-deck, .card-credits, .card-students{
       grid-template-columns: 1fr;
     }
     .card-credits {
@@ -343,3 +344,5 @@
     }
   }
 }
+
+

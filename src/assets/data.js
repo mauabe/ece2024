@@ -39,10 +39,10 @@ export const panels = [
     link: "news/izhikevich"
   },
   {
-    id: "dilou",
+    id: "diluo",
     title: "NEW FACULTY",
     firstName: "Di ",
-    lastName: "Lou",
+    lastName: "Luo",
     text: "Transformative Potential of Computers Exploiting Quantum Effects",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
     image: "../assets/images/di-luo.png",
