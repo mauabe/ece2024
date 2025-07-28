@@ -60,13 +60,13 @@
 
           &.active {
             color: $gray-8;
-            // text-shadow: $text-shadow;
+            text-shadow: $text-shadow;
             transition: all .3s ease-in-out;
           }
         }
 
         &.active {
-          color: $gray-7;
+          color: $gray-8;
           // text-shadow: $text-shadow;
           transition: all .3s ease-in-out;
         }

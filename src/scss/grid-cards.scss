@@ -37,7 +37,6 @@
       max-width: 100%;
       color: $gray-7;
       background-color: $dodge--30;
-      // background-image: url("../assets/images/stylish-hex.png");
 
       .frame{
         justify-self: center;
@@ -102,7 +101,6 @@
       background-color: $dodge--30;;
       align-items: center;
       padding: 1em;
-
       img.logo-pic{
         border: 0px ;
         background-color: transparent;
@@ -115,13 +113,11 @@
           object-fit: cover;
         }
       }
-
       &:hover {
         box-shadow: $box-shadow3;
       }
     }
   }  // end of card-deck
-
 
   .card-students{
     display: grid;
@@ -130,24 +126,21 @@
     grid-gap: 1.5em;
     text-indent: 0;
     min-width: 340px;
-
     .card{
       display: grid;
       border-radius: $border-radius;
       background-color: $dodge--30;
       padding: 1.3em;
       min-width: 320px;
-
        .student-frame{
          margin: 2em auto ;
          overflow: hidden;
          max-width: 20em;
          max-height: 25em;
          align-self: end;
-
          img{
-           width: 20em;
-           height: 25em;
+           width: 17em;
+           height: 22em;
            object-position: 50% 50%;
            object-fit: cover;
          }
@@ -171,24 +164,21 @@
       background-color: $dodge--30;
       align-items: start;
       padding: 1.2em;
-      max-width: 100%;
       color: $gray-7;
-      // background-color: $dodge--30;
-
       height: fit-content;
       padding: 1.2em;
 
       .twocol{
         display: grid;
         grid-template-columns: 1fr 1fr;
-      }
 
+      }
       &:hover {
         transition: all 0.3s ease-in-out;
         box-shadow: $box-shadow3;
       }
     }
-  }
+  } // <--end of card-credit -->
 
   h3.page-title{
     font-family: 'Raleway', sans-serif;
@@ -210,12 +200,12 @@
   }
 
   .card-name{
-    line-height: 2.5;
+    line-height: 1.2;
     font-family: 'Bree Serif', serif;
     font-size: 1.6em;
     color: $gray-7;
     text-align: center;
-    margin: 0.5em auto;
+    margin: 1.4em 0 1.4em 0;
   }
 
   .p-name{
@@ -236,10 +226,35 @@
     font-family: 'Libre Caslon Text', serif;
     font-style: italic;
     font-weight: 400;
-    font-size: .85em;
-    color: $gray-8;
+    font-size: 1.05em;
+    color: $gray-7;
     text-align: center;
     margin: 0 0 .2em 0;
+  }
+  .p-title{
+    font-family: 'Libre Caslon Text', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: .7em;
+    color: $gray-7;
+    text-align: center;
+    margin: 0 0 .2em 0;
+  }
+  .credit-name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    color: $gray-8;
+    text-align: center;
+    margin: 0.1em 0 0.8em 0;
+  }
+  .credit-title{
+    font-family: 'Libre Caslon Text', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: $gray-7;
+    text-align: center;
+    margin: 0 0 .01em 0;
   }
   .card-advisor{
     font-family: 'Raleway', sans-serif;
@@ -248,7 +263,6 @@
     text-align: center;
     margin-bottom: 0.2em;
   }
-
   .courses{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
@@ -286,7 +300,6 @@
     width: 150px;
     height: 190px;
   }
-
   .frame-book{
     margin: 1em auto 1.5em;
     border: 1px solid $gray-8;
@@ -296,7 +309,6 @@
     overflow: hidden;
     position: relative;
   }
-
   .frame-prof-book{
     position: relative;
     display: none;
@@ -312,12 +324,10 @@
     transition: all 3.3s ease;
     box-shadow: $box-shadow;
   }
-
   .card.book{
     object-position: 50% 50%;
     transition: all 0.3s ease-in-out;
   }
-
   p > {
     span {
       font-weight: bold;

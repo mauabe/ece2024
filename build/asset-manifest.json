@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2023-2025/static/css/main.ab46f8fd.css",
-    "main.js": "/2023-2025/static/js/main.352b8ad4.js",
+    "main.css": "/2023-2025/static/css/main.65a84979.css",
+    "main.js": "/2023-2025/static/js/main.e27bb50c.js",
     "static/media/Liz-Izhikevich.png": "/2023-2025/static/media/Liz-Izhikevich.a85ece38e7588f2d908b.png",
     "static/media/leo-zhou.png": "/2023-2025/static/media/leo-zhou.2c4fbf47f464875cd265.png",
     "static/media/Futuristic.jpg": "/2023-2025/static/media/Futuristic.9170b5150a0d3270f5c4.jpg",
@@ -13,11 +13,11 @@
     "static/media/ECE.svg": "/2023-2025/static/media/ECE.e7bc92928069e853dc67e1a3dcc60d0c.svg",
     "static/media/ECE_white.svg": "/2023-2025/static/media/ECE_white.c0d65bdaabb1a0d4274c515cf57c1c8a.svg",
     "index.html": "/2023-2025/index.html",
-    "main.ab46f8fd.css.map": "/2023-2025/static/css/main.ab46f8fd.css.map",
-    "main.352b8ad4.js.map": "/2023-2025/static/js/main.352b8ad4.js.map"
+    "main.65a84979.css.map": "/2023-2025/static/css/main.65a84979.css.map",
+    "main.e27bb50c.js.map": "/2023-2025/static/js/main.e27bb50c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab46f8fd.css",
-    "static/js/main.352b8ad4.js"
+    "static/css/main.65a84979.css",
+    "static/js/main.e27bb50c.js"
   ]
 }
