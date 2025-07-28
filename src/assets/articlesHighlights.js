@@ -4,8 +4,8 @@ export const articlesHighlights = [
     bubbleTextOne: 'Nader ',
     bubbleTextTwo: 'Sehatbakhsh',
     bubbleTextThree: '',
-    articleHeadlineOne:'Assistant Professor Nader Sehatbakhsh received the',
-    articleHeadlineTwo:'National Science Foundation CAREER award',
+    articleHeadlineOne:'Assistant Professor Nader Sehatbakhsh ',
+    articleHeadlineTwo:'Received the National Science Foundation CAREER award',
     articleHeadlineThree: '',
     articleCallout1: '',
     articleCallout2: '',
@@ -30,15 +30,15 @@ export const articlesHighlights = [
     articleCaption1: 'Assistant Professor Nader Sehatbakhsh received the NSF CAREER Award.',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: ' <p style="text-indent:0"><span class="first-letter">N</span>ader Sehatbakhsh, an assistant professor of electrical and computer engineering at the UCLA Samueli School of Engineering, has received a National Science Foundation (NSF) CAREER award, the agency’s highest honor for faculty members in the early stages of their teaching and research careers.</p><p>Sehatbakhsh’s research focuses on improving security and privacy. At UCLA, he leads the<span>Secure Systems and Architectures Lab</span>, which explores the topics across a range of electronic devices and systems.</p><p>The five-year, $638,000 grant will fund Sehatbakhsh’s research into securing potential data leaks and access points. His work will focus on side channels — any alternate or accidental entry points into an electronic system — that have the potential to create unwanted data leakage. To secure these pathways, Sehatbakhsh plans to create a suite of tools to analyze hardware, systems and computer software for unknown side channels. Findings from this research could lead to the development of more secure systems.</p><p>Since joining UCLA in 2020, Sehatbakhsh has received three additional NSF grants, totaling $1.8 million, for his research on Internet of Things devices.</p> '
+    textCopy: ' <p style="text-indent:0"><span class="first-letter">N</span>ader Sehatbakhsh, an assistant professor of electrical and computer engineering at the UCLA Samueli School of Engineering, has received a National Science Foundation (NSF) CAREER award, the agency’s highest honor for faculty members in the early stages of their teaching and research careers.</p><p>Sehatbakhsh’s research focuses on improving security and privacy. At UCLA, he leads the <span> Secure Systems and Architectures Lab</span>, which explores the topics across a range of electronic devices and systems.</p><p>The five-year, $638,000 grant will fund Sehatbakhsh’s research into securing potential data leaks and access points. His work will focus on side channels — any alternate or accidental entry points into an electronic system — that have the potential to create unwanted data leakage. To secure these pathways, Sehatbakhsh plans to create a suite of tools to analyze hardware, systems and computer software for unknown side channels. Findings from this research could lead to the development of more secure systems.</p><p>Since joining UCLA in 2020, Sehatbakhsh has received three additional NSF grants, totaling $1.8 million, for his research on Internet of Things devices.</p> '
   }, 
   {
     articleId: 'sergiocarbajo',
     bubbleTextOne: 'Sergio ',
     bubbleTextTwo: 'Carbajo',
     bubbleTextThree: '',
-    articleHeadlineOne:'Associate Professor ',
-    articleHeadlineTwo:'Sergio Carbajo received the Humboldt Research Award',
+    articleHeadlineOne:'Associate Professor Sergio Carbajo ',
+    articleHeadlineTwo:'Received the Humboldt Research Award',
     articleHeadlineThree: '',
     articleCallout1: '',
     articleCallout2: '',
@@ -130,15 +130,15 @@ export const articlesHighlights = [
     articleCaption1: 'Jonathan Kao\'s lab studies brain-machine interfaces and how the brain and AI compute. Professor Kao celebrating with his team (right).',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: '  <p style="text-indent:0"><span class="first-letter">E</span>very year, the UCLA Samueli School of Engineering selects and recognizes outstanding achievements by a number of its alumni, faculty members and students who have excelled in various fields. Jonathan Kao was awarded the Northrop Grumman Excellence in Teaching Award.</p><p>Jonathan Kao is an associate professor of electrical and computer engineering. Since joining the UCLA faculty in 2017, Kao has developed two new engineering courses — one on neural networks and deep learning, and the other on neural signal processing. They are among the most popular courses with the highest enrollment at UCLA Samueli. Kao’s classes have attracted students from more than 25 majors across campus and have received top marks in course reviews citing his passionate and engaging teaching style. Kao’s research interests lie at the intersection of basic neuroscience, neural engineering and modern artificial intelligence.</p><p>Kao has published studies at top venues on topics including brain-machine interfaces, deep learning, information theory, and the neuroscience of motor control, decision-making and anxiety. He is a member of the UCLA Neuroscience Interdepartmental Program and the UCLA Brain Research Institute. Among his many awards are a National Institutes of Health Director’s New Innovator Award, a National Science Foundation CAREER Award, and a Brain & Behavior Research Foundation National Alliance for Research on Schizophrenia and Depression Young Investigator Award. While studying for his bachelor’s, master’s and doctoral degrees in electrical engineering at Stanford University, Kao worked as a teaching assistant, graduate researcher and lecturer.</p><p><br><span>Honors & Awards</span><br><br>2024	Northrop Grumman Excellence in Teaching Award<br><br>2020	NIH Director\'s New Innovator Award<br><br>2020	NSF CAREER Award<br><br>2020	Brain & Behavior Research Foundation Young Investigator (Research Partners Program, P&S Fund Investigator)<br><br>2019	Hellman Fellow<br><br>2016	Sammy Kuo Award in Neuroscience, Finalist, Stanford University<br><br>2014	BRAIN Best Paper Award, IEEE EMBS, Chicago (Stavisky SD, Kao JC, Nuyujukian P, Ryu SI, Shenoy KV)<br><br>2006	Hewlett Packard Best Paper Award, ASME IMECE, Chicago (Kao JC, Warren J, Xu J, Attinger D)<br></p><p></p>'
+    textCopy: '  <p style="text-indent:0"><span class="first-letter">E</span>very year, the UCLA Samueli School of Engineering selects and recognizes outstanding achievements by a number of its alumni, faculty members and students who have excelled in various fields. Jonathan Kao was awarded the Northrop Grumman Excellence in Teaching Award.</p><p>Jonathan Kao is an Associate Professor of Electrical and Computer Engineering. Since joining the UCLA faculty in 2017, Kao has developed two new engineering courses — one on neural networks and deep learning, and the other on neural signal processing. They are among the most popular courses with the highest enrollment at UCLA Samueli. Kao’s classes have attracted students from more than 25 majors across campus and have received top marks in course reviews citing his passionate and engaging teaching style. Kao’s research interests lie at the intersection of basic neuroscience, neural engineering and modern artificial intelligence.</p><p>Kao has published studies at top venues on topics including brain-machine interfaces, deep learning, information theory, and the neuroscience of motor control, decision-making and anxiety. He is a member of the UCLA Neuroscience Interdepartmental Program and the UCLA Brain Research Institute. Among his many awards are a National Institutes of Health Director’s New Innovator Award, a National Science Foundation CAREER Award, and a Brain & Behavior Research Foundation National Alliance for Research on Schizophrenia and Depression Young Investigator Award. While studying for his bachelor’s, master’s and doctoral degrees in electrical engineering at Stanford University, Kao worked as a teaching assistant, graduate researcher and lecturer.</p><p><br><span>Honors & Awards</span><br><br>2024	Northrop Grumman Excellence in Teaching Award<br><br>2020	NIH Director\'s New Innovator Award<br><br>2020	NSF CAREER Award<br><br>2020	Brain & Behavior Research Foundation Young Investigator (Research Partners Program, P&S Fund Investigator)<br><br>2019	Hellman Fellow<br><br>2016	Sammy Kuo Award in Neuroscience, Finalist, Stanford University<br><br>2014	BRAIN Best Paper Award, IEEE EMBS, Chicago (Stavisky SD, Kao JC, Nuyujukian P, Ryu SI, Shenoy KV)<br><br>2006	Hewlett Packard Best Paper Award, ASME IMECE, Chicago (Kao JC, Warren J, Xu J, Attinger D)<br></p><p></p>'
   },
   {
     articleId: 'madnisuperhero',
     bubbleTextOne: 'Asad M.',
     bubbleTextTwo: 'Madni',
     bubbleTextThree: '',
-    articleHeadlineOne:'Distinguished Professor Asad M. Madni Elected to ',
-    articleHeadlineTwo:'National Inventors Hall of Fame, University of Cambridge Philosophical Society and the Royal Society of Arts',
+    articleHeadlineOne:'Distinguished Professor Asad M. Madni  ',
+    articleHeadlineTwo:'Elected to National Inventors Hall of Fame, University of Cambridge Philosophical Society and the Royal Society of Arts',
     articleHeadlineThree: '',
     articleCallout1: '',
     articleCallout2: '',
