@@ -17,14 +17,12 @@
     justify-content: space-between;
     margin-bottom: 2em;
     }
-
   .card-deck {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-template-rows: auto ;
     grid-gap: 1.5em;
     text-indent: 0;
-
     .card {
       box-shadow: $box-shadow;
       transition: all 0.3s ease-in-out;
@@ -37,7 +35,6 @@
       max-width: 100%;
       color: $gray-7;
       background-color: $dodge--30;
-
       .frame{
         justify-self: center;
         border-radius: $border-radius-half;
@@ -49,7 +46,6 @@
         overflow: hidden;
         position: relative;
         background-color: $gray-4;
-
         img.card-pic-fellowship{
           border: 0px ;
           width: 150px;
@@ -67,7 +63,19 @@
           justify-self: center;
         }
       }
-
+     .frame-book{
+        justify-self: center;
+        margin: 1em auto 1.5em auto;
+        max-width: 20em;
+        overflow: hidden;
+        img.book-pic{
+          border-radius: $border-radius-half;
+          border: 1px solid $gray-8;
+          width: 20em;
+          height: 24em;
+          object-fit: fill;
+        }
+     }  
       img.logo-pic{
         border: 1px solid black  ;
         margin:0.4rem;
@@ -77,7 +85,6 @@
         object-fit: contain;
         object-position: 50% 50%;
         justify-self: center;
-
         &.cover{
           object-fit: cover;
         }
@@ -167,11 +174,9 @@
       color: $gray-7;
       height: fit-content;
       padding: 1.2em;
-
       .twocol{
         display: grid;
         grid-template-columns: 1fr 1fr;
-
       }
       &:hover {
         transition: all 0.3s ease-in-out;
@@ -189,7 +194,6 @@
     margin: 0.5em 0 0.5em 0;
     background-color: transparent;
   }
-
   .card-title, h4.card-title{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -198,7 +202,6 @@
     text-align: start;
     margin: 2rem;
   }
-
   .card-name{
     line-height: 1.2;
     font-family: 'Bree Serif', serif;
@@ -207,7 +210,6 @@
     text-align: center;
     margin: 1.4em 0 1.4em 0;
   }
-
   .p-name{
     font-family: 'Raleway', sans-serif;
     font-size: 1.6em;
@@ -290,43 +292,7 @@
     color: $gray-8;
     text-align: left;
     text-decoration: none;
-  }
-
-  img.card-pic.book{
-    border-radius: $border-radius-half;
-    object-fit: cover;
-    object-position: 50% 50%;
-    max-width: 150px;
-    width: 150px;
-    height: 190px;
-  }
-  .frame-book{
-    margin: 1em auto 1.5em;
-    border: 1px solid $gray-8;
-    align-items: center;
-    width: 150px;
-    height: 190px;
-    overflow: hidden;
-    position: relative;
-  }
-  .frame-prof-book{
-    position: relative;
-    display: none;
-    transition: all 5.3s ease-in-out;
-    border: 1px solid $gray-8;
-    border-radius:  $border-radius-half;
-    overflow: hidden;
-    z-index: 10;
-    top: 35px;
-    right: 10px;
-    width: 150px;
-    height: 150px;
-    transition: all 3.3s ease;
-    box-shadow: $box-shadow;
-  }
-  .card.book{
-    object-position: 50% 50%;
-    transition: all 0.3s ease-in-out;
+    margin: 0 1.8em;
   }
   p > {
     span {
