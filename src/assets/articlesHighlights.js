@@ -68,9 +68,9 @@ export const articlesHighlights = [
 
   {
     articleId: 'pamartiguptayang',
-    bubbleTextOne: 'Pamarti, Gupta ',
-    bubbleTextTwo: '& Yang',
-    bubbleTextThree: '',
+    bubbleTextOne: 'S. Pamarti,  ',
+    bubbleTextTwo: 'P. Gupta',
+    bubbleTextThree: '& Ken Yang',
     articleHeadlineOne:'Professors Sudhakar Pamarti, Puneet Gupta and Ken Yang ',
     articleHeadlineTwo:'Received DARPA Award OPTIMA',
     articleHeadlineThree: '',
